@@ -1,0 +1,59 @@
+/*-----------------------------------*\
+	$BASE RULES
+\*-----------------------------------*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+body {
+  font-size: 16px;
+  background-color: #3e3f41;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+::selection {
+  background-color: black;
+}
+
+::-moz-selection {
+  background-color: black;
+}
+
+/*-----------------------------------*\
+	$LAYOUT
+\*-----------------------------------*/
+header, footer {
+  width: 100%;
+  background-color: #030000;
+}
+
+footer {
+  position: relative;
+  height: 180px;
+  color: #f7f7f7;
+}
+
+.content {
+  width: 60em;
+  /* 960px */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0.625em;
+}
