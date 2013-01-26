@@ -17,7 +17,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
   font-size: 16px;
   font-family: "Droid Sans", sans-serif;
-  background-color: #3e3f41;
+  background-color: #363b44;
+  line-height: 1.4;
 }
 
 .cf:before,
@@ -76,18 +77,24 @@ section.main section.blog-posts article.post {
   margin-bottom: 1.25em;
   padding: 1.25em;
   /* 20px; */
+  border-top: 4px solid #030000;
 }
 section.main section.blog-posts article.post .entry-content {
   position: relative;
-  width: 88.8888889%;
-  /* 640px; */
+  width: 86.1111111%;
+  /* 620px; */
   float: right;
+  color: #363b44;
+}
+section.main section.blog-posts article.post .entry-content p {
+  margin-top: 03.2258065%;
 }
 section.main section.blog-posts article.post .meta {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   text-align: center;
+  width: 10.6944444%;
 }
 section.main section.blog-posts article.post .meta .data {
   background-color: #555;
@@ -97,16 +104,16 @@ section.main section.blog-posts article.post .meta .data {
 }
 section.main section.blog-posts article.post .meta .data span {
   display: block;
-  background-color: tomato;
+  background-color: #030000;
+  color: #f7f7f7;
   height: 25px;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 section.main section.blog-posts article.post .meta .comments {
   position: relative;
-  bottom: 0;
-  left: 0;
+  top: 40px;
 }
 section.main section.blog-posts article.post .meta .comments span {
   display: block;
@@ -116,4 +123,5 @@ section.main aside {
   float: right;
   background-color: #f7f7f7;
   padding: 1.25em;
+  border-top: 4px solid #030000;
 }

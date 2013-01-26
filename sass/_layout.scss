@@ -32,16 +32,23 @@ section.main {
 			background-color: $awhite;
 			margin-bottom: 1.25em;
 			padding: 1.25em; /* 20px; */
+			border-top: 4px solid $nied;
 			.entry-content {
 				position: relative;
-				width: 88.8888889%; /* 640px; */
+				width: 86.1111111%; /* 620px; */
 				float: right;
+				color: $blackgrey;
+				// border-bottom: 1px dashed #555;
+				p {
+					margin-top: 03.2258065%;
+				}
 			}
 			.meta {
 				position: absolute;
 				top: 0;
-				left: 0;
+				left: 10px;
 				text-align: center;
+				width: 10.6944444%;
 				.data {
 					background-color: #555;
 					height: 80px;
@@ -49,17 +56,17 @@ section.main {
 					font-size: 2.5rem;
 					span {
 						display: block;
-						background-color: tomato;
+						background-color: $nied;
+						color: $awhite;
 						height: 25px;
-						font-size: 20px;
-						font-size: 1.25rem;
+						font-size: 18px;
+						font-size: 1.125rem;
 						text-transform: uppercase;
 					}
 				}
 				.comments {
 					position: relative;
-					bottom: 0;
-					left: 0;
+					top: 40px;
 					span {
 						display: block;
 					}
@@ -73,5 +80,6 @@ section.main {
 		float: right;
 		background-color: $awhite;
 		padding: 1.25em;
+		border-top: 4px solid $nied;
 	}
 }

@@ -14,6 +14,12 @@ $sorrow: #196675;
 $bnavy: #112e6d;
 $blackgrey: #363b44;
 
+$dblue: #55afd9;
+$bad: #1283b8;
+$water: #33a8de;
+$snome: #3b8db3;
+$bluedust: #2a7496;
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -30,7 +36,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
 	font-size: 16px;
 	font-family: 'Droid Sans', sans-serif;
-	background-color: $wnight;
+	background-color: $blackgrey;
+	line-height: 1.4;
 }
 
 .cf:before,
