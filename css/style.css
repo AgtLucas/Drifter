@@ -64,5 +64,10 @@ section.main {
   color: #f7f7f7;
 }
 section.main section.blog-posts {
-  width: 70.212766%;
+  width: 63.8297872%;
+  float: left;
+}
+section.main aside {
+  width: 31.9148936%;
+  float: right;
 }
