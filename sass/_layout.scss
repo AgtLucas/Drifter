@@ -15,6 +15,7 @@ footer {
 }
 
 .content {
+	position: relative;
 	width: 68.75em; /* 1100px */
 	max-width: 100%;
 	margin: 0 auto;
@@ -22,13 +23,36 @@ footer {
 }
 
 section.main {
+	margin-top: 2.5em;
 	section.blog-posts {
-		width: 71.2962963%; /* 790px; */
+		width: 70.3703704%; /* 760px; */
 		float: left;
+		article.post {
+			position: relative;
+			background-color: $awhite;
+			margin-bottom: 1.25em;
+			padding: 1.25em;
+			.entry-content {
+				position: relative;
+				width: 92.1052632%;
+				float: right;
+			}
+			.meta {
+				position: absolute;
+				top: 0;
+				left: 0; 
+			}
+			.comments {
+				width: 220px;
+				float: right;
+			}
+		}
 	}
 
 	aside {
 		width: 27.7777778%;
 		float: right;
+		background-color: $awhite;
+		padding: 1.25em;
 	}
 }

@@ -53,6 +53,7 @@ footer {
 }
 
 .content {
+  position: relative;
   width: 68.75em;
   /* 1100px */
   max-width: 100%;
@@ -61,12 +62,37 @@ footer {
   /* 10px */
 }
 
+section.main {
+  margin-top: 2.5em;
+}
 section.main section.blog-posts {
-  width: 71.2962963%;
-  /* 790px; */
+  width: 70.3703704%;
+  /* 760px; */
   float: left;
+}
+section.main section.blog-posts article.post {
+  position: relative;
+  background-color: #f7f7f7;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+}
+section.main section.blog-posts article.post .entry-content {
+  position: relative;
+  width: 92.1052632%;
+  float: right;
+}
+section.main section.blog-posts article.post .meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.main section.blog-posts article.post .comments {
+  width: 220px;
+  float: right;
 }
 section.main aside {
   width: 27.7777778%;
   float: right;
+  background-color: #f7f7f7;
+  padding: 1.25em;
 }
