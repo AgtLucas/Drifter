@@ -15,26 +15,20 @@ footer {
 }
 
 .content {
-	width: 60em; /* 960px */
+	width: 68.75em; /* 1100px */
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 0.625em; /* 10px */
 }
 
 section.main {
-	color: $awhite;
 	section.blog-posts {
-    	width: 65.9574468%; /* 620px */
-    	float: left;
-    	article.post {
-    		background-color: $awhite;
-    		color: $wnight;
-    		padding: 0.625em; /* 10px */
-    	}
-  	}
+		width: 71.2962963%; /* 790px; */
+		float: left;
+	}
 
-  	aside {
-  		width: 31.9148936%;
-  		float: right;
-  	}
+	aside {
+		width: 27.7777778%;
+		float: right;
+	}
 }
