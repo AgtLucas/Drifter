@@ -18,5 +18,9 @@ footer {
 	width: 60em; /* 960px */
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0.625em;
+	padding: 0.625em; /* 10px */
+}
+
+section.main {
+	color: $awhite;
 }

@@ -15,6 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 body {
   font-size: 16px;
+  font-family: "Droid Sans", sans-serif;
   background-color: #3e3f41;
 }
 
@@ -56,4 +57,9 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   padding: 0.625em;
+  /* 10px */
+}
+
+section.main {
+  color: #f7f7f7;
 }
