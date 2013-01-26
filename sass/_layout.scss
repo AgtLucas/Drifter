@@ -31,20 +31,39 @@ section.main {
 			position: relative;
 			background-color: $awhite;
 			margin-bottom: 1.25em;
-			padding: 1.25em;
+			padding: 1.25em; /* 20px; */
 			.entry-content {
 				position: relative;
-				width: 92.1052632%;
+				width: 88.8888889%; /* 640px; */
 				float: right;
 			}
 			.meta {
 				position: absolute;
 				top: 0;
-				left: 0; 
-			}
-			.comments {
-				width: 220px;
-				float: right;
+				left: 0;
+				text-align: center;
+				.data {
+					background-color: #555;
+					height: 80px;
+					font-size: 40px;
+					font-size: 2.5rem;
+					span {
+						display: block;
+						background-color: tomato;
+						height: 25px;
+						font-size: 20px;
+						font-size: 1.25rem;
+						text-transform: uppercase;
+					}
+				}
+				.comments {
+					position: relative;
+					bottom: 0;
+					left: 0;
+					span {
+						display: block;
+					}
+				}
 			}
 		}
 	}
