@@ -24,8 +24,13 @@ footer {
 section.main {
 	color: $awhite;
 	section.blog-posts {
-    	width: 63.8297872%;
+    	width: 65.9574468%; /* 620px */
     	float: left;
+    	article.post {
+    		background-color: $awhite;
+    		color: $wnight;
+    		padding: 0.625em; /* 10px */
+    	}
   	}
 
   	aside {
