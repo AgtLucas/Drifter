@@ -48,6 +48,10 @@ body {
 	color: $livedie;
 }
 
+img, video {
+	width: 100%;
+}
+
 .cf:before,
 .cf:after {
 	content: " ";
@@ -94,7 +98,7 @@ hr {
 .stip {
 	position: relative;
 	background-color: $dmidnight;
-	border-bottom: 2px dashed #555;
+	border-bottom: 2px dashed $agray;
 	padding: 0;
 	height: 5px;
 }

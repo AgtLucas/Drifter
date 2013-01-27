@@ -78,7 +78,7 @@ section.main {
 			.entry-content {
 				position: relative;
 				width: 86.1111111%; /* 620px; */
-				padding-bottom: 1.25em; /* 30px*/
+				padding-bottom: 0.625em; /* 10px*/
 				padding-right: 1.875em;
 				h2.post-title {
 					border-bottom: 1px solid #555;
@@ -86,8 +86,8 @@ section.main {
 					a {
 						color: $nied;
 						font-weight: normal;
-						font-size: 35px;
-						font-size: 2.1875rem;
+						font-size: 3px;
+						font-size: 2.0625rem;
 						font-family: 'Francois One', sans-serif;
 						&:hover {
 							color: $bluedust;
@@ -95,7 +95,8 @@ section.main {
 					}
 				}
 				p {
-					margin-top: 03.2258065%;
+					margin-top: 01.6129032%; /* 10px; */
+					margin-bottom: 01.6129032%; /* 10px; */
 				}
 			}
 			.cat-tags {
@@ -156,7 +157,7 @@ section.main {
 					a {
 						color: $bluedust;
 						&:hover {
-							color: orangered;
+							color: $water;
 						}
 					}
 					span {
@@ -173,5 +174,49 @@ section.main {
 		background-color: $awhite;
 		padding: 1.875em; /* 30px */
 		border-top: 4px solid $nied;
+		.search {
+			font-family: 'Francois One', sans-serif;
+			color: $agray;
+			font-size: 18px;
+			font-size: 1.125rem;
+			padding-bottom: 1.25em;
+			input {
+				border: 1px solid #ccc;
+				background-color: #f3f3f3;
+				width: 100%;
+				padding: 0.625em;
+				font-size: 12px;
+				font-size: 0.75rem;
+				border-radius: 2px;
+			}
+		}
+		ul.sidebar {
+			list-style: none;
+			li.widget {
+				h3.widget-title {
+					font-family: 'Francois One', sans-serif;
+					color: $agray;
+					font-size: 20px;
+					font-size: 1.25rem;
+				}
+				ul {
+					list-style: none;
+					padding-left: 1.25em; /* 20 */
+					padding-bottom: 1.875em; /* 30 */
+					li {
+						padding-top: 5px;
+						font-size: 15px;
+						font-size: 0.9375rem;
+						border-bottom: 1px dashed #ccc;
+						a {
+							color: $bluedust;
+							&:hover {
+								color: $agray;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

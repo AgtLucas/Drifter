@@ -22,6 +22,10 @@ body {
   color: #595959;
 }
 
+img, video {
+  width: 100%;
+}
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -68,7 +72,7 @@ hr {
 .stip {
   position: relative;
   background-color: #00181d;
-  border-bottom: 2px dashed #555555;
+  border-bottom: 2px dashed #4d4d4d;
   padding: 0;
   height: 5px;
 }
@@ -160,8 +164,8 @@ section.main section.blog-posts article.post .entry-content {
   position: relative;
   width: 86.1111111%;
   /* 620px; */
-  padding-bottom: 1.25em;
-  /* 30px*/
+  padding-bottom: 0.625em;
+  /* 10px*/
   padding-right: 1.875em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
@@ -171,15 +175,18 @@ section.main section.blog-posts article.post .entry-content h2.post-title {
 section.main section.blog-posts article.post .entry-content h2.post-title a {
   color: #030000;
   font-weight: normal;
-  font-size: 35px;
-  font-size: 2.1875rem;
+  font-size: 3px;
+  font-size: 2.0625rem;
   font-family: "Francois One", sans-serif;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a:hover {
   color: #2a7496;
 }
 section.main section.blog-posts article.post .entry-content p {
-  margin-top: 03.2258065%;
+  margin-top: 01.6129032%;
+  /* 10px; */
+  margin-bottom: 01.6129032%;
+  /* 10px; */
 }
 section.main section.blog-posts article.post .cat-tags {
   position: relative;
@@ -242,7 +249,7 @@ section.main section.blog-posts article.post .meta .comments a {
   color: #2a7496;
 }
 section.main section.blog-posts article.post .meta .comments a:hover {
-  color: orangered;
+  color: #33a8de;
 }
 section.main section.blog-posts article.post .meta .comments span {
   display: block;
@@ -254,4 +261,48 @@ section.main aside {
   padding: 1.875em;
   /* 30px */
   border-top: 4px solid #030000;
+}
+section.main aside .search {
+  font-family: "Francois One", sans-serif;
+  color: #4d4d4d;
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding-bottom: 1.25em;
+}
+section.main aside .search input {
+  border: 1px solid #cccccc;
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 0.625em;
+  font-size: 12px;
+  font-size: 0.75rem;
+  border-radius: 2px;
+}
+section.main aside ul.sidebar {
+  list-style: none;
+}
+section.main aside ul.sidebar li.widget h3.widget-title {
+  font-family: "Francois One", sans-serif;
+  color: #4d4d4d;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+section.main aside ul.sidebar li.widget ul {
+  list-style: none;
+  padding-left: 1.25em;
+  /* 20 */
+  padding-bottom: 1.875em;
+  /* 30 */
+}
+section.main aside ul.sidebar li.widget ul li {
+  padding-top: 5px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  border-bottom: 1px dashed #cccccc;
+}
+section.main aside ul.sidebar li.widget ul li a {
+  color: #2a7496;
+}
+section.main aside ul.sidebar li.widget ul li a:hover {
+  color: #4d4d4d;
 }
