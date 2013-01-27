@@ -1,0 +1,401 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "ie",
+        "explorer"
+      ],
+      "code": 54,
+      "uid": "63208f7386b9384ba1291832de6ceee7",
+      "css": "ie",
+      "orig_css": "ie",
+      "orig_code": 54,
+      "src": "zocial",
+      "from": 54
+    },
+    {
+      "search": [
+        "appstore"
+      ],
+      "code": 65,
+      "uid": "1dbc2b4a7f00ef209a85e4b5d9fedec4",
+      "css": "appstore",
+      "orig_css": "appstore",
+      "orig_code": 65,
+      "src": "zocial",
+      "from": 65
+    },
+    {
+      "search": [
+        "evernote"
+      ],
+      "code": 69,
+      "uid": "366510ecfb08cd0110134b1ea907fb81",
+      "css": "evernote",
+      "orig_css": "evernote",
+      "orig_code": 69,
+      "src": "zocial",
+      "from": 69
+    },
+    {
+      "search": [
+        "linkedin"
+      ],
+      "code": 76,
+      "uid": "cc4e62d1721c863fdc6944d2fd87521d",
+      "css": "linkedin",
+      "orig_css": "linkedin",
+      "orig_code": 76,
+      "src": "zocial",
+      "from": 76
+    },
+    {
+      "search": [
+        "twitter"
+      ],
+      "code": 84,
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 84,
+      "src": "zocial",
+      "from": 84
+    },
+    {
+      "search": [
+        "youtube"
+      ],
+      "code": 85,
+      "uid": "57a4f84c40a0c44d47387105f162a427",
+      "css": "youtube",
+      "orig_css": "youtube",
+      "orig_code": 85,
+      "src": "zocial",
+      "from": 85
+    },
+    {
+      "search": [
+        "dropbox"
+      ],
+      "code": 100,
+      "uid": "d0ce443b8d7376716584f5f660a6bf72",
+      "css": "dropbox",
+      "orig_css": "dropbox",
+      "orig_code": 100,
+      "src": "zocial",
+      "from": 100
+    },
+    {
+      "search": [
+        "wordpress"
+      ],
+      "code": 119,
+      "uid": "0636c283a9822288a767609062bbf4a4",
+      "css": "wordpress-1",
+      "orig_css": "wordpress",
+      "orig_code": 119,
+      "src": "zocial",
+      "from": 119
+    },
+    {
+      "search": [
+        "star"
+      ],
+      "code": 9733,
+      "uid": "5daac230ad1cfdf4782697dfbda679dd",
+      "file": "star",
+      "css": "star",
+      "orig_css": "star",
+      "orig_code": 9733,
+      "src": "iconic",
+      "from": 9733
+    },
+    {
+      "search": [
+        "heart"
+      ],
+      "code": 59392,
+      "uid": "ff933ecda3a1da53071ee6ec224ef8c9",
+      "file": "heart_fill",
+      "css": "heart-1",
+      "orig_css": "heart",
+      "orig_code": 59392,
+      "src": "iconic",
+      "from": 9829
+    },
+    {
+      "search": [
+        "heart"
+      ],
+      "code": 9829,
+      "from": 9829,
+      "uid": "pt5lb2orj9ms0n4yyxjavefdukcv1scl",
+      "css": "heart",
+      "orig_css": "heart",
+      "orig_code": 9829,
+      "src": "modernpics"
+    },
+    {
+      "search": [
+        "quote"
+      ],
+      "code": 10077,
+      "uid": "661bd5ba1dad15ad9acbfcd8b8af76f3",
+      "file": "left_quote",
+      "css": "quote-left",
+      "orig_css": "quote-left",
+      "orig_code": 10077,
+      "src": "iconic",
+      "from": 10077
+    },
+    {
+      "search": [
+        "quote"
+      ],
+      "code": 10078,
+      "uid": "bc0af4824c8eedcad7bc0d35911dac2a",
+      "file": "right_quote",
+      "css": "quote-right",
+      "orig_css": "quote-right",
+      "orig_code": 10078,
+      "src": "iconic",
+      "from": 10078
+    },
+    {
+      "search": [
+        "comment",
+        "reply",
+        "write"
+      ],
+      "code": 59160,
+      "from": 59160,
+      "uid": "b90868gfogj970a1g0dnot6hm5r4uj55",
+      "css": "comment",
+      "orig_css": "comment",
+      "orig_code": 59160,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "browser",
+        "firefox"
+      ],
+      "code": 59456,
+      "meta": {
+        "email": "berbentseva_angela@yahoo.com",
+        "author": "Angela Berbentseva"
+      },
+      "uid": "62c089cb34e74b3a1200bc7f5314eb4e",
+      "css": "firefox",
+      "orig_css": "firefox",
+      "orig_code": 59456,
+      "src": "fontelico",
+      "from": 59456
+    },
+    {
+      "search": [
+        "browser",
+        "chrome"
+      ],
+      "code": 59457,
+      "meta": {
+        "email": "berbentseva_angela@yahoo.com",
+        "author": "Angela Berbentseva"
+      },
+      "uid": "9c2b737b16ae2c8d66b7bfd29ba5ecd8",
+      "css": "chrome",
+      "orig_css": "chrome",
+      "orig_code": 59457,
+      "src": "fontelico",
+      "from": 59457
+    },
+    {
+      "search": [
+        "browser",
+        "opera"
+      ],
+      "code": 59458,
+      "meta": {
+        "email": "berbentseva_angela@yahoo.com",
+        "author": "Angela Berbentseva"
+      },
+      "uid": "45861dd1e5ce4fde338bcccf01eeb808",
+      "css": "opera",
+      "orig_css": "opera",
+      "orig_code": 59458,
+      "src": "fontelico",
+      "from": 59458
+    },
+    {
+      "search": [
+        "browser",
+        "ie",
+        "bullshit",
+        "crap"
+      ],
+      "code": 59459,
+      "meta": {
+        "email": "berbentseva_angela@yahoo.com",
+        "author": "Angela Berbentseva"
+      },
+      "uid": "2a46f1d1c9bd036e17a74e46613c1636",
+      "css": "ie-1",
+      "orig_css": "ie",
+      "orig_code": 59459,
+      "src": "fontelico",
+      "from": 59459
+    },
+    {
+      "search": [
+        "menu"
+      ],
+      "code": 61641,
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "orig_css": "menu",
+      "orig_code": 61641,
+      "src": "fontawesome",
+      "from": 61641
+    },
+    {
+      "search": [
+        "facebook"
+      ],
+      "code": 62208,
+      "meta": {
+        "homepage": "http://www.facebook.com/brandpermissions/logos.php",
+        "author": "Facebook"
+      },
+      "uid": "240979dd9fcf2e46250e66792edb8092",
+      "file": "facebook",
+      "css": "facebook",
+      "orig_css": "facebook",
+      "orig_code": 62208,
+      "src": "brandico",
+      "from": 62208
+    },
+    {
+      "search": [
+        "twitter"
+      ],
+      "code": 62211,
+      "meta": {
+        "homepage": "https://twitter.com/about/resources/logos",
+        "author": "Twitter"
+      },
+      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
+      "file": "twitter-bird",
+      "transform": {
+        "rescale": 0.9,
+        "offset": 0.05
+      },
+      "css": "twitter-bird",
+      "orig_css": "twitter-bird",
+      "orig_code": 62211,
+      "src": "brandico",
+      "from": 62211
+    },
+    {
+      "search": [
+        "github"
+      ],
+      "code": 62216,
+      "meta": {
+        "twitter": "https://twitter.com/puzrin",
+        "github": "https://github.com/puzrin",
+        "author": "Vitaly Puzrin"
+      },
+      "uid": "4a0bb1ac004980bb3837560d4c9e8cee",
+      "file": "github",
+      "transform": {
+        "rescale": 0.9,
+        "offset": 0.05
+      },
+      "css": "github",
+      "orig_css": "github",
+      "orig_code": 62216,
+      "src": "brandico",
+      "from": 62216
+    },
+    {
+      "search": [
+        "google"
+      ],
+      "code": 62217,
+      "meta": {
+        "homepage": "http://www.google.com/+/business/brand-guidelines.html",
+        "author": "Google"
+      },
+      "uid": "626fb97a7c0c0db53a1853fb9e96e223",
+      "file": "googleplus-rect",
+      "css": "googleplus-rect",
+      "orig_css": "googleplus-rect",
+      "orig_code": 62217,
+      "src": "brandico",
+      "from": 62217
+    },
+    {
+      "search": [
+        "linkedin"
+      ],
+      "code": 62235,
+      "meta": {
+        "homepage": "http://openiconlibrary.sourceforge.net",
+        "author": "Open Icon Library"
+      },
+      "uid": "e9e96618b0f44170930f9b179237c76e",
+      "file": "linkedin-rect",
+      "css": "linkedin-rect",
+      "orig_css": "linkedin-rect",
+      "orig_code": 62235,
+      "src": "brandico",
+      "from": 62235
+    },
+    {
+      "search": [
+        "wordpress"
+      ],
+      "code": 62237,
+      "meta": {
+        "homepage": "http://openiconlibrary.sourceforge.net",
+        "author": "Open Icon Library"
+      },
+      "uid": "1357ba39f8dc4519949cc4da55226b62",
+      "file": "wordpress",
+      "css": "wordpress",
+      "orig_css": "wordpress",
+      "orig_code": 62237,
+      "src": "brandico",
+      "from": 62237
+    },
+    {
+      "search": [
+        "movie",
+        "video",
+        "film"
+      ],
+      "code": 127916,
+      "uid": "2d2f83f97ba029f32db3ca963dd0beea",
+      "file": "movie",
+      "css": "video",
+      "orig_css": "video",
+      "orig_code": 127916,
+      "src": "iconic",
+      "from": 127916
+    },
+    {
+      "search": [
+        "calendar",
+        "date"
+      ],
+      "code": 128197,
+      "from": 128197,
+      "uid": "531bc468eecbb8867d822f1c11f1e039",
+      "css": "calendar",
+      "orig_css": "calendar",
+      "orig_code": 128197,
+      "src": "fontawesome"
+    }
+  ]
+}
