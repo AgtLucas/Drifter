@@ -261,6 +261,9 @@ section.main aside {
   padding: 1.875em;
   /* 30px */
   border-top: 4px solid #030000;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 section.main aside .search {
   font-family: "Francois One", sans-serif;
