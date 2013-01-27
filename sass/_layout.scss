@@ -2,18 +2,6 @@
 	$LAYOUT
 \*-----------------------------------*/
 
-header, footer {
-	width: 100%;
-	background-color: $nied;
-}
-
-footer {
-	position: relative;
-	// top: 120px;
-	height: 180px;
-	color: $awhite;
-}
-
 .content {
 	position: relative;
 	width: 68.75em; /* 1100px */
@@ -22,11 +10,34 @@ footer {
 	padding: 0.625em; /* 10px */
 }
 
+header, footer {
+	width: 100%;
+	background-color: $nied;
+}
+
+footer {
+	position: relative;
+	height: 180px;
+	color: $awhite;
+}
+
 header {
 	height: 6.25em;
+	border-top: 5px solid $dmidnight;
+	.content {
+		padding-bottom: 0;
+	}
 	h1.logo {
+		position: relative;
+		top: 10px;
 		a {
 			color: $awhite;
+			font-size: 40px;
+			font-size: 2.5rem;
+			font-family: 'Francois One', sans-serif;
+			&:hover {
+				color: $bluedust;
+			}
 		}
 	}
 	nav {
@@ -40,6 +51,9 @@ header {
 				a {
 					display: inline;
 					color: $awhite;
+					&:hover {
+						color: $bluedust;
+					}
 				}
 			}
 		}
@@ -71,7 +85,6 @@ section.main {
 					padding-bottom: 0.3125em;
 					a {
 						color: $nied;
-						font-weight: bold;
 						font-family: 'Francois One', sans-serif;
 						&:hover {
 							color: $bluedust;

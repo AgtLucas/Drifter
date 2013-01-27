@@ -65,9 +65,27 @@ hr {
   float: left;
 }
 
+.stip {
+  position: relative;
+  background-color: #00181d;
+  border-bottom: 2px dashed #555555;
+  padding: 0;
+  height: 5px;
+}
+
 /*-----------------------------------*\
 	$LAYOUT
 \*-----------------------------------*/
+.content {
+  position: relative;
+  width: 68.75em;
+  /* 1100px */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0.625em;
+  /* 10px */
+}
+
 header, footer {
   width: 100%;
   background-color: #030000;
@@ -79,21 +97,25 @@ footer {
   color: #f7f7f7;
 }
 
-.content {
-  position: relative;
-  width: 68.75em;
-  /* 1100px */
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0.625em;
-  /* 10px */
-}
-
 header {
   height: 6.25em;
+  border-top: 5px solid #00181d;
+}
+header .content {
+  padding-bottom: 0;
+}
+header h1.logo {
+  position: relative;
+  top: 10px;
 }
 header h1.logo a {
   color: #f7f7f7;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-family: "Francois One", sans-serif;
+}
+header h1.logo a:hover {
+  color: #2a7496;
 }
 header nav {
   position: relative;
@@ -109,6 +131,9 @@ header nav ul li {
 header nav ul li a {
   display: inline;
   color: #f7f7f7;
+}
+header nav ul li a:hover {
+  color: #2a7496;
 }
 
 section.main {
@@ -145,7 +170,6 @@ section.main section.blog-posts article.post .entry-content h2.post-title {
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
   color: #030000;
-  font-weight: bold;
   font-family: "Francois One", sans-serif;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a:hover {

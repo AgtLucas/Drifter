@@ -90,3 +90,11 @@ hr {
 .left {
 	float: left;
 }
+
+.stip {
+	position: relative;
+	background-color: $dmidnight;
+	border-bottom: 2px dashed #555;
+	padding: 0;
+	height: 5px;
+}
