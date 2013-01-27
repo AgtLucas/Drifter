@@ -39,6 +39,22 @@ body {
   background-color: black;
 }
 
+.button {
+  background-color: #363b44;
+  padding: 0.625em;
+  border-radius: 4px;
+  color: #f7f7f7;
+}
+.button:hover {
+  background-color: #030000;
+}
+
+hr {
+  border-color: #33a8de;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #030000;
+}
+
 /*-----------------------------------*\
 	$LAYOUT
 \*-----------------------------------*/
@@ -85,14 +101,25 @@ section.main section.blog-posts article.post .entry-content {
   /* 620px; */
   float: right;
   color: #363b44;
+  border-bottom: 1px solid #555555;
+  padding-bottom: 1.25em;
+  /* 20 */
 }
 section.main section.blog-posts article.post .entry-content p {
   margin-top: 03.2258065%;
+}
+section.main section.blog-posts article.post .cat-tags {
+  position: relative;
+  top: 1.25em;
+  padding-bottom: 1.25em;
+  width: 86.1111111%;
+  float: right;
 }
 section.main section.blog-posts article.post .meta {
   position: absolute;
   top: 0;
   left: 10px;
+  float: left;
   text-align: center;
   width: 10.6944444%;
 }

@@ -38,15 +38,24 @@ section.main {
 				width: 86.1111111%; /* 620px; */
 				float: right;
 				color: $blackgrey;
-				// border-bottom: 1px dashed #555;
+				border-bottom: 1px solid #555;
+				padding-bottom: 1.25em; /* 20 */
 				p {
 					margin-top: 03.2258065%;
 				}
+			}
+			.cat-tags {
+				position: relative;
+				top: 1.25em;
+				padding-bottom: 1.25em;
+				width: 86.1111111%;
+				float: right;
 			}
 			.meta {
 				position: absolute;
 				top: 0;
 				left: 10px;
+				float: left;
 				text-align: center;
 				width: 10.6944444%;
 				.data {

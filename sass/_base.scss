@@ -57,3 +57,19 @@ body {
 ::-moz-selection {
 	background-color: black;
 }
+
+.button {
+	background-color: $blackgrey;
+	padding: 0.625em;
+	border-radius: 4px;
+	color: $awhite;
+	&:hover {
+		background-color: $nied;
+	}
+}
+
+hr {
+	border-color: $water;
+	border-top: 1px solid $awhite;
+	border-bottom: 1px solid $nied;
+}
