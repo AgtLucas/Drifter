@@ -17,7 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
   font-size: 16px;
   font-family: "Droid Sans", sans-serif;
-  background-color: #3e3f41;
+  background-color: #4d4d4d;
   line-height: 1.4;
   color: #595959;
 }
@@ -127,7 +127,13 @@ section.main section.blog-posts article.post .entry-content {
   float: right;
   border-bottom: 1px solid #555555;
   padding-bottom: 1.25em;
-  /* 20 */
+  /* 20px*/
+}
+section.main section.blog-posts article.post .entry-content h2.post-title a {
+  color: #4f4f4f;
+}
+section.main section.blog-posts article.post .entry-content h2.post-title a:hover {
+  color: #33a8de;
 }
 section.main section.blog-posts article.post .entry-content p {
   margin-top: 03.2258065%;

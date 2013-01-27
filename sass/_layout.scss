@@ -64,7 +64,16 @@ section.main {
 				width: 86.1111111%; /* 620px; */
 				float: right;
 				border-bottom: 1px solid #555;
-				padding-bottom: 1.25em; /* 20 */
+				padding-bottom: 1.25em; /* 20px*/
+				// padding-right: 1.875em;
+				h2.post-title {
+					a {
+						color: $opblack;
+						&:hover {
+							color: $water;
+						}
+					}
+				}
 				p {
 					margin-top: 03.2258065%;
 				}
