@@ -112,6 +112,7 @@ header h1.logo a {
   color: #f7f7f7;
   font-size: 40px;
   font-size: 2.5rem;
+  font-weight: normal;
   font-family: "Francois One", sans-serif;
 }
 header h1.logo a:hover {
@@ -159,7 +160,6 @@ section.main section.blog-posts article.post .entry-content {
   position: relative;
   width: 86.1111111%;
   /* 620px; */
-  border-bottom: 1px dashed #555555;
   padding-bottom: 1.25em;
   /* 30px*/
   padding-right: 1.875em;
@@ -170,6 +170,10 @@ section.main section.blog-posts article.post .entry-content h2.post-title {
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
   color: #030000;
+  font-weight: normal;
+  font-size: 35px;
+  font-size: 2.1875rem;
+  font-family: "Francois One", sans-serif;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a:hover {
   color: #2a7496;
@@ -180,15 +184,17 @@ section.main section.blog-posts article.post .entry-content p {
 section.main section.blog-posts article.post .cat-tags {
   position: relative;
   top: 1.25em;
-  padding-bottom: 1.25em;
   width: 86.1111111%;
-  float: right;
+  padding-bottom: 1.25em;
+  padding-top: 1.25em;
   padding-right: 1.875em;
+  border-top: 1px dashed #cccccc;
+  float: right;
   font-size: 11px;
   font-size: 0.6875rem;
+  font-weight: bold;
   line-height: 2;
   color: #555;
-  font-weight: bold;
 }
 section.main section.blog-posts article.post .cat-tags a {
   color: #2a7496;
@@ -211,9 +217,9 @@ section.main section.blog-posts article.post .meta {
 }
 section.main section.blog-posts article.post .meta .data {
   background-color: #595959;
-  height: 80px;
-  font-size: 40px;
-  font-size: 2.5rem;
+  height: 70px;
+  font-size: 30px;
+  font-size: 1.875rem;
   border-radius: 2px;
   -moz-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
