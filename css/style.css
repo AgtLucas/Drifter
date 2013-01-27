@@ -41,10 +41,11 @@ body {
 }
 
 .button {
-  background-color: #363b44;
-  padding: 0.625em;
-  border-radius: 4px;
+  background-color: #2a7496;
+  padding: 0.3125em;
+  border-radius: 2px;
   color: #f7f7f7;
+  font-size: 0.9375em;
 }
 .button:hover {
   background-color: #030000;
@@ -54,6 +55,14 @@ hr {
   border-color: #33a8de;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #030000;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
 
 /*-----------------------------------*\
@@ -89,7 +98,6 @@ header h1.logo a {
 header nav {
   position: relative;
   bottom: 1.25em;
-  float: right;
 }
 header nav ul {
   list-style: none;
@@ -109,7 +117,6 @@ section.main {
 section.main section.blog-posts {
   width: 70.3703704%;
   /* 760px; */
-  float: left;
 }
 section.main section.blog-posts article.post {
   position: relative;
@@ -118,22 +125,31 @@ section.main section.blog-posts article.post {
   padding: 1.25em;
   /* 20px; */
   border-top: 4px solid #030000;
-  border-radius: 2px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 section.main section.blog-posts article.post .entry-content {
   position: relative;
   width: 86.1111111%;
   /* 620px; */
-  float: right;
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px dashed #555555;
   padding-bottom: 1.25em;
-  /* 20px*/
+  /* 30px*/
+  padding-right: 1.875em;
+}
+section.main section.blog-posts article.post .entry-content h2.post-title {
+  border-bottom: 1px solid #555555;
+  padding-bottom: 0.3125em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
-  color: #4f4f4f;
+  color: #030000;
+  font-weight: bold;
+  font-family: "Francois One", sans-serif;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a:hover {
-  color: #33a8de;
+  color: #2a7496;
 }
 section.main section.blog-posts article.post .entry-content p {
   margin-top: 03.2258065%;
@@ -144,21 +160,41 @@ section.main section.blog-posts article.post .cat-tags {
   padding-bottom: 1.25em;
   width: 86.1111111%;
   float: right;
+  padding-right: 1.875em;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  line-height: 2;
+  color: #555;
+  font-weight: bold;
+}
+section.main section.blog-posts article.post .cat-tags a {
+  color: #2a7496;
+}
+section.main section.blog-posts article.post .cat-tags a:hover {
+  text-decoration: underline;
+}
+section.main section.blog-posts article.post .cat-tags span.cat-links {
+  float: left;
+  padding-right: 3.36134454em;
 }
 section.main section.blog-posts article.post .meta {
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 5px;
   float: left;
   text-align: center;
   width: 10.6944444%;
   color: #f7f7f7;
 }
 section.main section.blog-posts article.post .meta .data {
-  background-color: #555;
+  background-color: #595959;
   height: 80px;
   font-size: 40px;
   font-size: 2.5rem;
+  border-radius: 2px;
+  -moz-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
 }
 section.main section.blog-posts article.post .meta .data span {
   display: block;
@@ -173,6 +209,12 @@ section.main section.blog-posts article.post .meta .comments {
   position: relative;
   top: 40px;
 }
+section.main section.blog-posts article.post .meta .comments a {
+  color: #2a7496;
+}
+section.main section.blog-posts article.post .meta .comments a:hover {
+  color: orangered;
+}
 section.main section.blog-posts article.post .meta .comments span {
   display: block;
 }
@@ -180,6 +222,7 @@ section.main aside {
   width: 27.7777778%;
   float: right;
   background-color: #f7f7f7;
-  padding: 1.25em;
+  padding: 1.875em;
+  /* 30px */
   border-top: 4px solid #030000;
 }

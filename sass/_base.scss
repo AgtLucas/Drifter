@@ -67,10 +67,11 @@ body {
 }
 
 .button {
-	background-color: $blackgrey;
-	padding: 0.625em;
-	border-radius: 4px;
+	background-color: $bluedust;
+	padding: 0.3125em;
+	border-radius: 2px;
 	color: $awhite;
+	font-size: 0.9375em;
 	&:hover {
 		background-color: $nied;
 	}
@@ -80,4 +81,12 @@ hr {
 	border-color: $water;
 	border-top: 1px solid $awhite;
 	border-bottom: 1px solid $nied;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
 }

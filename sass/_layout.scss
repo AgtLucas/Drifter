@@ -32,7 +32,6 @@ header {
 	nav {
 		position: relative;
 		bottom: 1.25em;
-		float: right;
 		ul {
 			list-style: none;
 			li {
@@ -51,26 +50,31 @@ section.main {
 	margin-top: 2.5em;
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
-		float: left;
 		article.post {
 			position: relative;
 			background-color: $awhite;
 			margin-bottom: 1.25em;
 			padding: 1.25em; /* 20px; */
 			border-top: 4px solid $nied;
-			border-radius: 2px;
+			border-radius: 1px;
+			-webkit-box-shadow: 0 8px 6px -6px black;
+	  		-moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 			.entry-content {
 				position: relative;
 				width: 86.1111111%; /* 620px; */
-				float: right;
-				border-bottom: 1px solid #555;
-				padding-bottom: 1.25em; /* 20px*/
-				// padding-right: 1.875em;
+				border-bottom: 1px dashed #555;
+				padding-bottom: 1.25em; /* 30px*/
+				padding-right: 1.875em;
 				h2.post-title {
+					border-bottom: 1px solid #555;
+					padding-bottom: 0.3125em;
 					a {
-						color: $opblack;
+						color: $nied;
+						font-weight: bold;
+						font-family: 'Francois One', sans-serif;
 						&:hover {
-							color: $water;
+							color: $bluedust;
 						}
 					}
 				}
@@ -84,20 +88,40 @@ section.main {
 				padding-bottom: 1.25em;
 				width: 86.1111111%;
 				float: right;
+				padding-right: 1.875em;
+				font-size: 11px;
+				font-size: 0.6875rem;
+				line-height: 2;
+				color: #555;
+				font-weight: bold;
+				a {
+					color: $bluedust;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+				span.cat-links {
+					float: left;
+					padding-right: 3.36134454em;
+				}
 			}
 			.meta {
 				position: absolute;
 				top: 0;
-				left: 10px;
+				left: 5px;
 				float: left;
 				text-align: center;
 				width: 10.6944444%;
 				color: $awhite;
 				.data {
-					background-color: #555;
+					background-color: $livedie;
 					height: 80px;
 					font-size: 40px;
 					font-size: 2.5rem;
+					border-radius: 2px;
+					-moz-box-shadow: 2px -2px rgba(0,0,0,0.3);
+					-webkit-box-shadow: 2px -2px rgba(0,0,0,0.3);
+					box-shadow: 2px -2px rgba(0,0,0,0.3);
 					span {
 						display: block;
 						background-color: $nied;
@@ -111,6 +135,12 @@ section.main {
 				.comments {
 					position: relative;
 					top: 40px;
+					a {
+						color: $bluedust;
+						&:hover {
+							color: orangered;
+						}
+					}
 					span {
 						display: block;
 					}
@@ -123,7 +153,7 @@ section.main {
 		width: 27.7777778%;
 		float: right;
 		background-color: $awhite;
-		padding: 1.25em;
+		padding: 1.875em; /* 30px */
 		border-top: 4px solid $nied;
 	}
 }
