@@ -17,8 +17,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
   font-size: 16px;
   font-family: "Droid Sans", sans-serif;
-  background-color: #363b44;
+  background-color: #3e3f41;
   line-height: 1.4;
+  color: #595959;
 }
 
 .cf:before,
@@ -79,6 +80,29 @@ footer {
   /* 10px */
 }
 
+header {
+  height: 6.25em;
+}
+header h1.logo a {
+  color: #f7f7f7;
+}
+header nav {
+  position: relative;
+  bottom: 1.25em;
+  float: right;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+  margin-left: 30px;
+}
+header nav ul li a {
+  display: inline;
+  color: #f7f7f7;
+}
+
 section.main {
   margin-top: 2.5em;
 }
@@ -94,13 +118,13 @@ section.main section.blog-posts article.post {
   padding: 1.25em;
   /* 20px; */
   border-top: 4px solid #030000;
+  border-radius: 2px;
 }
 section.main section.blog-posts article.post .entry-content {
   position: relative;
   width: 86.1111111%;
   /* 620px; */
   float: right;
-  color: #363b44;
   border-bottom: 1px solid #555555;
   padding-bottom: 1.25em;
   /* 20 */
@@ -122,6 +146,7 @@ section.main section.blog-posts article.post .meta {
   float: left;
   text-align: center;
   width: 10.6944444%;
+  color: #f7f7f7;
 }
 section.main section.blog-posts article.post .meta .data {
   background-color: #555;

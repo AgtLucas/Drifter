@@ -22,6 +22,31 @@ footer {
 	padding: 0.625em; /* 10px */
 }
 
+header {
+	height: 6.25em;
+	h1.logo {
+		a {
+			color: $awhite;
+		}
+	}
+	nav {
+		position: relative;
+		bottom: 1.25em;
+		float: right;
+		ul {
+			list-style: none;
+			li {
+				display: inline;
+				margin-left: 30px;
+				a {
+					display: inline;
+					color: $awhite;
+				}
+			}
+		}
+	}
+}
+
 section.main {
 	margin-top: 2.5em;
 	section.blog-posts {
@@ -33,11 +58,11 @@ section.main {
 			margin-bottom: 1.25em;
 			padding: 1.25em; /* 20px; */
 			border-top: 4px solid $nied;
+			border-radius: 2px;
 			.entry-content {
 				position: relative;
 				width: 86.1111111%; /* 620px; */
 				float: right;
-				color: $blackgrey;
 				border-bottom: 1px solid #555;
 				padding-bottom: 1.25em; /* 20 */
 				p {
@@ -58,6 +83,7 @@ section.main {
 				float: left;
 				text-align: center;
 				width: 10.6944444%;
+				color: $awhite;
 				.data {
 					background-color: #555;
 					height: 80px;

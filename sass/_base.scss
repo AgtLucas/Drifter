@@ -20,6 +20,13 @@ $water: #33a8de;
 $snome: #3b8db3;
 $bluedust: #2a7496;
 
+$agray: #4d4d4d;
+$lovegray: #515151;
+$opblack: #4f4f4f;
+$retsof: #3f3f3f;
+$livedie: #595959;
+
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -36,8 +43,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
 	font-size: 16px;
 	font-family: 'Droid Sans', sans-serif;
-	background-color: $blackgrey;
+	background-color: $wnight;
 	line-height: 1.4;
+	color: $livedie;
 }
 
 .cf:before,
