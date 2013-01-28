@@ -147,25 +147,6 @@ section.main {
 				text-align: center;
 				// width: 10.6944444%;
 				color: $nied;
-				// .data {
-				// 	background-color: $livedie;
-				// 	height: 70px;
-				// 	font-size: 30px;
-				// 	font-size: 1.875rem;
-				// 	border-radius: 2px;
-				// 	-moz-box-shadow: 2px -2px rgba(0,0,0,0.3);
-				// 	-webkit-box-shadow: 2px -2px rgba(0,0,0,0.3);
-				// 	box-shadow: 2px -2px rgba(0,0,0,0.3);
-				// 	span {
-				// 		display: block;
-				// 		background-color: $nied;
-				// 		color: $awhite;
-				// 		height: 25px;
-				// 		font-size: 18px;
-				// 		font-size: 1.125rem;
-				// 		text-transform: uppercase;
-				// 	}
-				// }
 				.data {
 					position: relative;
 					background-color: $nied;
@@ -185,11 +166,6 @@ section.main {
 				    	font-size: 15px;
 				    	font-size: 0.9375rem;
 				    }
-				}
-				.comments {
-					position: relative;
-					background-color: $nied;
-					-webkit-transform: rotate(-90deg);
 				}
 			}
 		}
