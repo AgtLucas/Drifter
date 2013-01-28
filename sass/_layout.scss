@@ -81,6 +81,7 @@ section.main {
 		width: 70.3703704%; /* 760px; */
 		article.post {
 			position: relative;
+			min-height: 400px;
 			background-color: $awhite;
 			margin-bottom: 1.25em;
 			padding: 1.25em; /* 20px; */
@@ -170,7 +171,7 @@ section.main {
 					background-color: $nied;
 				    color: $awhite;
 					padding: 0.625em;
-					margin-top: 155px;
+					margin-top: 200px;
 					width: 200px;
 				    -webkit-transform-origin: 0 0;
 				    -moz-transform-origin:    0 0;
@@ -180,20 +181,15 @@ section.main {
 				    -moz-transform:    rotate(-90deg); 
 				    -ms-transform:     rotate(-90deg); 
 				    -o-transform:      rotate(-90deg);
-				    font-size: 15px;
+				    p {
+				    	font-size: 15px;
+				    	font-size: 0.9375rem;
+				    }
 				}
 				.comments {
 					position: relative;
-					top: 40px;
-					a {
-						color: $bluedust;
-						&:hover {
-							color: $water;
-						}
-					}
-					span {
-						display: block;
-					}
+					background-color: $nied;
+					-webkit-transform: rotate(-90deg);
 				}
 			}
 		}

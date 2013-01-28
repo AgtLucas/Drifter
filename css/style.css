@@ -177,6 +177,7 @@ section.main section.blog-posts {
 }
 section.main section.blog-posts article.post {
   position: relative;
+  min-height: 400px;
   background-color: #f7f7f7;
   margin-bottom: 1.25em;
   padding: 1.25em;
@@ -253,7 +254,7 @@ section.main section.blog-posts article.post .meta .data {
   background-color: #030000;
   color: #f7f7f7;
   padding: 0.625em;
-  margin-top: 155px;
+  margin-top: 200px;
   width: 200px;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
@@ -263,20 +264,15 @@ section.main section.blog-posts article.post .meta .data {
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
+}
+section.main section.blog-posts article.post .meta .data p {
   font-size: 15px;
+  font-size: 0.9375rem;
 }
 section.main section.blog-posts article.post .meta .comments {
   position: relative;
-  top: 40px;
-}
-section.main section.blog-posts article.post .meta .comments a {
-  color: #2a7496;
-}
-section.main section.blog-posts article.post .meta .comments a:hover {
-  color: #33a8de;
-}
-section.main section.blog-posts article.post .meta .comments span {
-  display: block;
+  background-color: #030000;
+  -webkit-transform: rotate(-90deg);
 }
 section.main aside {
   width: 27.7777778%;
