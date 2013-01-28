@@ -196,7 +196,7 @@ section.main section.blog-posts article.post .entry-content {
   padding-right: 1.875em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #cccccc;
   padding-bottom: 0.3125em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
@@ -243,30 +243,27 @@ section.main section.blog-posts article.post .cat-tags span.cat-links {
 section.main section.blog-posts article.post .meta {
   position: absolute;
   top: 0;
-  left: 5px;
+  left: 0;
   float: left;
   text-align: center;
-  width: 10.6944444%;
-  color: #f7f7f7;
+  color: #030000;
 }
 section.main section.blog-posts article.post .meta .data {
-  background-color: #595959;
-  height: 70px;
-  font-size: 30px;
-  font-size: 1.875rem;
-  border-radius: 2px;
-  -moz-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
-  box-shadow: 2px -2px rgba(0, 0, 0, 0.3);
-}
-section.main section.blog-posts article.post .meta .data span {
-  display: block;
+  position: relative;
   background-color: #030000;
   color: #f7f7f7;
-  height: 25px;
-  font-size: 18px;
-  font-size: 1.125rem;
-  text-transform: uppercase;
+  padding: 0.625em;
+  margin-top: 155px;
+  width: 200px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  font-size: 15px;
 }
 section.main section.blog-posts article.post .meta .comments {
   position: relative;
