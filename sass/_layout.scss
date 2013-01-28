@@ -17,8 +17,22 @@ header, footer {
 
 footer {
 	position: relative;
-	height: 180px;
-	color: $awhite;
+	color: #ccc;
+	.copyright {
+		position: relative;
+		font-size: 14px;
+		font-size: 0.875rem;
+		a {
+			color: $bluedust;
+		}
+	}
+	.footer-widget {
+		position: relative;
+		width: 33.3024119%;
+		float: left;
+		padding: 1.25em;
+		margin-bottom: 20px; 
+	}
 }
 
 header {
@@ -205,6 +219,7 @@ section.main {
 				ul {
 					list-style: none;
 					padding-left: 1.25em; /* 20 */
+				  	list-style: square;
 					padding-bottom: 1.875em; /* 30 */
 					li {
 						padding-top: 5px;

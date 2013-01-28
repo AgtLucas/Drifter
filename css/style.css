@@ -24,6 +24,7 @@ body {
 
 img, video {
   width: 100%;
+  margin-top: 1.25em;
 }
 
 .cf:before,
@@ -61,12 +62,24 @@ hr {
   border-bottom: 1px solid #030000;
 }
 
+blockquote {
+  padding-left: 1.25em;
+  margin-bottom: 1.5625em;
+  margin-top: 1.5625em;
+  border-left: 5px solid #2a7496;
+  font-style: italic;
+}
+
 .right {
   float: right;
 }
 
 .left {
   float: left;
+}
+
+.center {
+  text-align: center;
 }
 
 .stip {
@@ -97,8 +110,22 @@ header, footer {
 
 footer {
   position: relative;
-  height: 180px;
-  color: #f7f7f7;
+  color: #ccc;
+}
+footer .copyright {
+  position: relative;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+footer .copyright a {
+  color: #2a7496;
+}
+footer .footer-widget {
+  position: relative;
+  width: 33.3024119%;
+  float: left;
+  padding: 1.25em;
+  margin-bottom: 20px;
 }
 
 header {
@@ -294,6 +321,7 @@ section.main aside ul.sidebar li.widget ul {
   list-style: none;
   padding-left: 1.25em;
   /* 20 */
+  list-style: square;
   padding-bottom: 1.875em;
   /* 30 */
 }
