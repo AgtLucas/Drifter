@@ -325,3 +325,10 @@ section.main aside ul.sidebar li.widget ul li a {
 section.main aside ul.sidebar li.widget ul li a:hover {
   color: #4d4d4d;
 }
+
+/*-----------------------------------*\
+	$MEDIA QUERIES
+\*-----------------------------------*/
+/* min-width: 320px */
+/* min-width: 760px */
+/* min-width: 1200px */
