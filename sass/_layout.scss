@@ -20,8 +20,11 @@ footer {
 	color: #ccc;
 	.copyright {
 		position: relative;
+		width: 100%;
+		display: inline-block;
 		font-size: 14px;
 		font-size: 0.875rem;
+		text-align: center;
 		a {
 			color: $bluedust;
 		}
@@ -31,7 +34,7 @@ footer {
 		width: 33.3024119%;
 		float: left;
 		padding: 1.25em;
-		margin-bottom: 20px; 
+		margin-bottom: 20px;
 	}
 }
 

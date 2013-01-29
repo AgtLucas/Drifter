@@ -114,8 +114,11 @@ footer {
 }
 footer .copyright {
   position: relative;
+  width: 100%;
+  display: inline-block;
   font-size: 14px;
   font-size: 0.875rem;
+  text-align: center;
 }
 footer .copyright a {
   color: #2a7496;
