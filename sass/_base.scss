@@ -14,6 +14,7 @@ $sorrow: #196675;
 $bnavy: #112e6d;
 $blackgrey: #363b44;
 
+$nblue: #031020;
 $dblue: #55afd9;
 $bad: #1283b8;
 $water: #33a8de;
@@ -66,10 +67,12 @@ img, video {
 
 ::selection {
 	background-color: black;
+	color: $awhite;
 }
 
 ::-moz-selection {
 	background-color: black;
+	color: $awhite;
 }
 
 .button {
@@ -87,6 +90,10 @@ hr {
 	border-color: $water;
 	border-top: 1px solid $awhite;
 	border-bottom: 1px solid $nied;
+}
+
+a {
+	color: $bluedust;
 }
 
 blockquote {

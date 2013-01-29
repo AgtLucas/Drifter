@@ -20,13 +20,20 @@ footer {
 	color: #ccc;
 	.copyright {
 		position: relative;
+		background: url(../img/dark_wood.png);
+		border-top: 2px dashed $dmidnight;
 		width: 100%;
+		padding: 1.25em;
 		display: inline-block;
 		font-size: 14px;
 		font-size: 0.875rem;
 		text-align: center;
 		a {
 			color: $bluedust;
+			&:hover {
+				color: $coolblue;
+				text-transform: underline;
+			}
 		}
 	}
 	.footer-widget {
@@ -40,7 +47,7 @@ footer {
 
 header {
 	height: 6.25em;
-	border-top: 5px solid $dmidnight;
+	border-top: 5px solid $agray;
 	.content {
 		padding-bottom: 0;
 	}
@@ -79,14 +86,15 @@ header {
 }
 
 section.main {
-	margin-top: 2.5em;
+	padding-top: 2.5em;
+	background: url(../img/purty_wood.png);
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
 		article.post {
 			position: relative;
 			min-height: 400px;
-			background-color: $awhite;
-			margin-bottom: 1.25em;
+			background: url(../img/linedpaper.png);
+			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
 			border-top: 4px solid $nied;
 			border-radius: 1px;
@@ -102,13 +110,13 @@ section.main {
 					border-bottom: 1px solid #ccc;
 					padding-bottom: 0.3125em;
 					a {
-						color: $nied;
+						color: $bluedust;
 						font-weight: normal;
 						font-size: 3px;
 						font-size: 2.0625rem;
 						font-family: 'Francois One', sans-serif;
 						&:hover {
-							color: $bluedust;
+							color: $nied;
 						}
 					}
 				}
@@ -148,7 +156,9 @@ section.main {
 				left: 0;
 				float: left;
 				text-align: center;
-				// width: 10.6944444%;
+				border-right: 1px dashed #ccc;
+				width: 10.6944444%;
+				height: 100%;
 				color: $nied;
 				.data {
 					position: relative;
