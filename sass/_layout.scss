@@ -20,7 +20,7 @@ footer {
 	color: #ccc;
 	.copyright {
 		position: relative;
-		background: url(../img/dark_wood.png);
+		background: url(../img/dark_brick_wall.png);
 		border-top: 2px dashed $dmidnight;
 		width: 100%;
 		padding: 1.25em;
@@ -46,6 +46,7 @@ footer {
 }
 
 header {
+	position: relative;
 	height: 6.25em;
 	border-top: 5px solid $agray;
 	.content {
@@ -87,7 +88,8 @@ header {
 
 section.main {
 	padding-top: 2.5em;
-	background: url(../img/purty_wood.png);
+	background: $bluedust;
+	// background: $agray url(../img/purty_wood.png);
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
 		article.post {
@@ -107,7 +109,7 @@ section.main {
 				padding-bottom: 0.625em; /* 10px*/
 				padding-right: 1.875em;
 				h2.post-title {
-					border-bottom: 1px solid #ccc;
+					border-bottom: 1px dashed #ccc;
 					padding-bottom: 0.3125em;
 					a {
 						color: $bluedust;
@@ -163,7 +165,9 @@ section.main {
 				.data {
 					position: relative;
 					background-color: $nied;
+					// opacity: 0.5;
 				    color: $awhite;
+				    font-weight: bold;
 					padding: 0.625em;
 					margin-top: 200px;
 					width: 200px;
@@ -187,7 +191,7 @@ section.main {
 	aside {
 		width: 27.7777778%;
 		float: right;
-		background-color: $awhite;
+		background: url(../img/linedpaper.png);
 		padding: 1.875em; /* 30px */
 		border-top: 4px solid $nied;
 		-webkit-box-shadow: 0 8px 6px -6px black;
