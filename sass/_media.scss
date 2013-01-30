@@ -3,8 +3,24 @@
 \*-----------------------------------*/
 
 /* min-width: 320px */
-@media screen and(min-width: 20em) {
+@media screen and(min-width: 20em) and (max-width: 47.5em) {
+	section.main {
+		.blog-posts {
+			min-width: 100%;
 
+		}
+
+		aside {
+			width: 100%;
+			margin-bottom: 2.5em;
+		}
+	}
+
+	footer {
+		.footer-widget {
+			min-width: 100%;
+		}
+	}
 }
 
 /* min-width: 760px */

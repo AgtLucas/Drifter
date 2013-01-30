@@ -146,11 +146,12 @@ footer .footer-widget {
 
 header {
   position: relative;
-  height: 6.25em;
+  height: 7.5em;
   border-top: 5px solid #4d4d4d;
 }
 header .content {
   padding-bottom: 0;
+  height: 7.1875em;
 }
 header h1.logo {
   position: relative;
@@ -192,6 +193,17 @@ section.main {
 section.main section.blog-posts {
   width: 70.3703704%;
   /* 760px; */
+  float: left;
+}
+section.main section.blog-posts section.pagination {
+  height: 70px;
+  width: 100%;
+  margin: 2.5em 0;
+  border-top: 4px solid #030000;
+  background: url(../img/linedpaper.png);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 section.main section.blog-posts article.post {
   position: relative;
@@ -352,5 +364,18 @@ section.main aside ul.sidebar li.widget ul li a:hover {
 	$MEDIA QUERIES
 \*-----------------------------------*/
 /* min-width: 320px */
+@media screen and (min-width: 20em) and (max-width: 47.5em) {
+  section.main .blog-posts {
+    min-width: 100%;
+  }
+  section.main aside {
+    width: 100%;
+    margin-bottom: 2.5em;
+  }
+
+  footer .footer-widget {
+    min-width: 100%;
+  }
+}
 /* min-width: 760px */
 /* min-width: 1200px */
