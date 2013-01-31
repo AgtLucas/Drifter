@@ -2,7 +2,7 @@
 	$MEDIA QUERIES
 \*-----------------------------------*/
 
-/* min-width: 280px */
+/* min-width: 280px max-width: 760px */
 @media screen and(min-width: 17.5em) and (max-width: 47.5em) {
 	section.main {
 		section.blog-posts {
@@ -22,6 +22,28 @@
 		aside {
 			width: 100%;
 			margin-bottom: 2.5em;
+		}
+	}
+
+	header {
+		h1.logo {
+			position: relative;
+			top: -5px;
+			text-align: center;
+		}
+		nav {
+			position: relative;
+			top: 5px;
+			float: none;
+			text-align: center;
+			font-size: 15px;
+			font-size: 0.9375rem;
+			ul {
+				li {
+					margin: 0;
+					padding: 0.625em;
+				}
+			}
 		}
 	}
 

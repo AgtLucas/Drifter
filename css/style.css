@@ -170,6 +170,7 @@ header h1.logo a:hover {
 header nav {
   position: relative;
   bottom: 1.25em;
+  float: right;
 }
 header nav ul {
   list-style: none;
@@ -363,7 +364,7 @@ section.main aside ul.sidebar li.widget ul li a:hover {
 /*-----------------------------------*\
 	$MEDIA QUERIES
 \*-----------------------------------*/
-/* min-width: 280px */
+/* min-width: 280px max-width: 760px */
 @media screen and (min-width: 17.5em) and (max-width: 47.5em) {
   section.main section.blog-posts {
     min-width: 100%;
@@ -375,6 +376,24 @@ section.main aside ul.sidebar li.widget ul li a:hover {
   section.main aside {
     width: 100%;
     margin-bottom: 2.5em;
+  }
+
+  header h1.logo {
+    position: relative;
+    top: -5px;
+    text-align: center;
+  }
+  header nav {
+    position: relative;
+    top: 5px;
+    float: none;
+    text-align: center;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  header nav ul li {
+    margin: 0;
+    padding: 0.625em;
   }
 
   footer .footer-widget {
