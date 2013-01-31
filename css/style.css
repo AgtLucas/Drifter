@@ -233,7 +233,7 @@ section.main section.blog-posts article.post .entry-content h2.post-title {
 section.main section.blog-posts article.post .entry-content h2.post-title a {
   color: #2a7496;
   font-weight: normal;
-  font-size: 3px;
+  font-size: 33px;
   font-size: 2.0625rem;
   font-family: "Francois One", sans-serif;
 }
@@ -363,10 +363,14 @@ section.main aside ul.sidebar li.widget ul li a:hover {
 /*-----------------------------------*\
 	$MEDIA QUERIES
 \*-----------------------------------*/
-/* min-width: 320px */
-@media screen and (min-width: 20em) and (max-width: 47.5em) {
-  section.main .blog-posts {
+/* min-width: 280px */
+@media screen and (min-width: 17.5em) and (max-width: 47.5em) {
+  section.main section.blog-posts {
     min-width: 100%;
+  }
+  section.main section.blog-posts article.post .entry-content h2.post-title a {
+    font-size: 30px;
+    font-size: 1.875rem;
   }
   section.main aside {
     width: 100%;
