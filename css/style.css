@@ -16,10 +16,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 body {
   font-size: 16px;
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   background-color: #515151;
   line-height: 1.4;
-  color: #595959;
+  color: #515151;
 }
 
 img, video {
@@ -62,10 +63,6 @@ hr {
   border-color: #33a8de;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #030000;
-}
-
-a {
-  color: #2a7496;
 }
 
 blockquote {
@@ -161,8 +158,8 @@ header h1.logo a {
   color: #f7f7f7;
   font-size: 40px;
   font-size: 2.5rem;
-  font-weight: normal;
-  font-family: "Francois One", sans-serif;
+  font-weight: bold;
+  font-family: "Share Tech", sans-serif;
 }
 header h1.logo a:hover {
   color: #2a7496;
@@ -232,20 +229,26 @@ section.main section.blog-posts article.post .entry-content h2.post-title {
   padding-bottom: 0.3125em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
-  color: #2a7496;
+  color: #00181d;
   font-weight: normal;
-  font-size: 33px;
-  font-size: 2.0625rem;
-  font-family: "Francois One", sans-serif;
+  font-size: 35px;
+  font-size: 2.1875rem;
+  font-family: "Share Tech", sans-serif;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a:hover {
-  color: #030000;
+  color: #2a7496;
 }
 section.main section.blog-posts article.post .entry-content p {
   margin-top: 01.6129032%;
   /* 10px; */
   margin-bottom: 01.6129032%;
   /* 10px; */
+}
+section.main section.blog-posts article.post .entry-content p a {
+  color: #1a82f7;
+}
+section.main section.blog-posts article.post .entry-content p a:hover {
+  text-decoration: underline;
 }
 section.main section.blog-posts article.post .cat-tags {
   position: relative;
@@ -316,7 +319,7 @@ section.main aside {
   box-shadow: 0 8px 6px -6px black;
 }
 section.main aside .search {
-  font-family: "Francois One", sans-serif;
+  font-family: "Share Tech", sans-serif;
   color: #4d4d4d;
   font-size: 18px;
   font-size: 1.125rem;
@@ -335,7 +338,7 @@ section.main aside ul.sidebar {
   list-style: none;
 }
 section.main aside ul.sidebar li.widget h3.widget-title {
-  font-family: "Francois One", sans-serif;
+  font-family: "Share Tech", sans-serif;
   color: #4d4d4d;
   font-size: 20px;
   font-size: 1.25rem;

@@ -44,10 +44,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 body {
 	font-size: 16px;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	background-color: $lovegray;
 	line-height: 1.4;
-	color: $livedie;
+	color: $lovegray;
 }
 
 img, video {
@@ -90,10 +91,6 @@ hr {
 	border-color: $water;
 	border-top: 1px solid $awhite;
 	border-bottom: 1px solid $nied;
-}
-
-a {
-	color: $bluedust;
 }
 
 blockquote {

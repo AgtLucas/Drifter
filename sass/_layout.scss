@@ -60,8 +60,8 @@ header {
 			color: $awhite;
 			font-size: 40px;
 			font-size: 2.5rem;
-			font-weight: normal;
-			font-family: 'Francois One', sans-serif;
+			font-weight: bold;
+			font-family: 'Share Tech', sans-serif;
 			&:hover {
 				color: $bluedust;
 			}
@@ -125,19 +125,25 @@ section.main {
 					border-bottom: 1px dashed #ccc;
 					padding-bottom: 0.3125em;
 					a {
-						color: $bluedust;
+						color: $dmidnight;
 						font-weight: normal;
-						font-size: 33px;
-						font-size: 2.0625rem;
-						font-family: 'Francois One', sans-serif;
+						font-size: 35px;
+						font-size: 2.1875rem;
+						font-family: 'Share Tech', sans-serif;
 						&:hover {
-							color: $nied;
+							color: $bluedust;
 						}
 					}
 				}
 				p {
 					margin-top: 01.6129032%; /* 10px; */
 					margin-bottom: 01.6129032%; /* 10px; */
+					a {
+						color: $coolblue;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
 				}
 			}
 			.cat-tags {
@@ -211,7 +217,7 @@ section.main {
 	  		-moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 		.search {
-			font-family: 'Francois One', sans-serif;
+			font-family: 'Share Tech', sans-serif;
 			color: $agray;
 			font-size: 18px;
 			font-size: 1.125rem;
@@ -230,7 +236,7 @@ section.main {
 			list-style: none;
 			li.widget {
 				h3.widget-title {
-					font-family: 'Francois One', sans-serif;
+					font-family: 'Share Tech', sans-serif;
 					color: $agray;
 					font-size: 20px;
 					font-size: 1.25rem;
