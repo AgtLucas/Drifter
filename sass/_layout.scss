@@ -61,7 +61,6 @@ header {
 			color: $awhite;
 			font-size: 50px;
 			font-size: 3.125rem;
-			letter-spacing: -1px;
 			&:hover {
 				color: $bluedust;
 			}
@@ -97,7 +96,7 @@ section.main {
 			height: 70px;
 			width: 100%;
 			margin: 2.5em 0;
-			background: url(../img/ricepaper2.png);
+			background-color: $old_paper;
 			-webkit-box-shadow: 0 8px 6px -6px black;
 	  		-moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
@@ -105,16 +104,16 @@ section.main {
 		article.post {
 			position: relative;
 			min-height: 400px;
-			background: url(../img/ricepaper2.png);
-			// background-color: #fff;
+			// background: url(../img/old_paper.png);
+			background-color: $old_paper;
 			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
 			border-radius: 1px;
 			box-shadow:
 		        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-		        0 10px 0 -5px #eee, /* The second layer */
+		        0 10px 0 -5px $old_paper, /* The second layer */
 		        0 10px 1px -5px rgba(0,0,0,0.15), /* The second layer shadow */
-		        0 20px 0 -12px #eee, /* The third layer */
+		        0 20px 0 -12px $old_paper, /* The third layer */
 		        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 
 			.entry-content {
@@ -123,7 +122,8 @@ section.main {
 				padding-bottom: 0.625em; /* 10px*/
 				padding-right: 1.875em;
 				h2.post-title {
-					border-bottom: 1px solid #ccc;
+					@include text-shadow;
+					border-bottom: 1px dotted #ccc;
 					padding-bottom: 0.3125em;
 					a {
 						color: $dmidnight;
@@ -140,6 +140,7 @@ section.main {
 					margin-top: 01.6129032%; /* 10px; */
 					margin-bottom: 01.6129032%; /* 10px; */
 					letter-spacing: -1px;
+					@include text-shadow;
 					a {
 						color: $coolblue;
 						&:hover {
@@ -156,6 +157,7 @@ section.main {
 				padding-top: 1.25em;
 				padding-right: 1.875em;
 				border-top: 1px dashed #ccc;
+				@include text-shadow;
 				float: right;
 				font-size: 11px;
 				font-size: 0.6875rem;
@@ -210,33 +212,34 @@ section.main {
 	aside {
 		width: 27.7777778%;
 		float: right;
-		background: url(../img/ricepaper2.png);
+		background-color: $old_paper;
 		padding: 1.875em; /* 30px */
 		-webkit-box-shadow: 0 8px 6px -6px black;
 	  	-moz-box-shadow: 0 8px 6px -6px black;
 	    box-shadow: 0 8px 6px -6px black;
 	    letter-spacing: -1px;
+	    font-weight: bold;
+	    @include text-shadow;
 		.search {
-			font-family: 'Francois One', sans-serif;
 			color: $agray;
 			font-size: 18px;
 			font-size: 1.125rem;
 			padding-bottom: 1.25em;
 			input {
-				border: 1px solid #ccc;
-				background-color: #f3f3f3;
+				border: 1px dashed #f3f3f3;
+				background: #f3f3f3;
 				width: 100%;
 				padding: 0.625em;
 				font-size: 12px;
 				font-size: 0.75rem;
 				border-radius: 2px;
+				// font-family: inherit;
 			}
 		}
 		ul.sidebar {
 			list-style: none;
 			li.widget {
 				h3.widget-title {
-					font-family: 'Francois One', sans-serif;
 					color: $agray;
 					font-size: 20px;
 					font-size: 1.25rem;

@@ -28,6 +28,11 @@ $opblack: #4f4f4f;
 $retsof: #3f3f3f;
 $livedie: #595959;
 
+$old_paper: #f1eee6;
+
+@mixin text-shadow {
+	text-shadow: 1px 1px 0px #fff;
+}
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -69,11 +74,13 @@ img, video {
 ::selection {
 	background-color: black;
 	color: $awhite;
+	text-shadow: none;
 }
 
 ::-moz-selection {
 	background-color: black;
 	color: $awhite;
+	text-shadow: none;
 }
 
 .button {

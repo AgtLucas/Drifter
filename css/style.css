@@ -41,11 +41,13 @@ img, video {
 ::selection {
   background-color: black;
   color: #f7f7f7;
+  text-shadow: none;
 }
 
 ::-moz-selection {
   background-color: black;
   color: #f7f7f7;
+  text-shadow: none;
 }
 
 .button {
@@ -161,7 +163,6 @@ header h1.logo a {
   color: #f7f7f7;
   font-size: 50px;
   font-size: 3.125rem;
-  letter-spacing: -1px;
 }
 header h1.logo a:hover {
   color: #2a7496;
@@ -198,7 +199,7 @@ section.main section.blog-posts section.pagination {
   height: 70px;
   width: 100%;
   margin: 2.5em 0;
-  background: url(../img/ricepaper2.png);
+  background-color: #f1eee6;
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
@@ -206,12 +207,12 @@ section.main section.blog-posts section.pagination {
 section.main section.blog-posts article.post {
   position: relative;
   min-height: 400px;
-  background: url(../img/ricepaper2.png);
+  background-color: #f1eee6;
   margin-bottom: 1.875em;
   padding: 1.25em;
   /* 20px; */
   border-radius: 1px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eeeeee, 0 10px 1px -5px rgba(0, 0, 0, 0.15), 0 20px 0 -12px #eeeeee, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #f1eee6, 0 10px 1px -5px rgba(0, 0, 0, 0.15), 0 20px 0 -12px #f1eee6, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
   /* The third layer shadow */
 }
 section.main section.blog-posts article.post .entry-content {
@@ -223,7 +224,8 @@ section.main section.blog-posts article.post .entry-content {
   padding-right: 1.875em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
-  border-bottom: 1px solid #cccccc;
+  text-shadow: 1px 1px 0px white;
+  border-bottom: 1px dotted #cccccc;
   padding-bottom: 0.3125em;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
@@ -242,6 +244,7 @@ section.main section.blog-posts article.post .entry-content p {
   margin-bottom: 01.6129032%;
   /* 10px; */
   letter-spacing: -1px;
+  text-shadow: 1px 1px 0px white;
 }
 section.main section.blog-posts article.post .entry-content p a {
   color: #1a82f7;
@@ -257,6 +260,7 @@ section.main section.blog-posts article.post .cat-tags {
   padding-top: 1.25em;
   padding-right: 1.875em;
   border-top: 1px dashed #cccccc;
+  text-shadow: 1px 1px 0px white;
   float: right;
   font-size: 11px;
   font-size: 0.6875rem;
@@ -308,24 +312,25 @@ section.main section.blog-posts article.post .meta .data p {
 section.main aside {
   width: 27.7777778%;
   float: right;
-  background: url(../img/ricepaper2.png);
+  background-color: #f1eee6;
   padding: 1.875em;
   /* 30px */
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
   letter-spacing: -1px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px white;
 }
 section.main aside .search {
-  font-family: "Francois One", sans-serif;
   color: #4d4d4d;
   font-size: 18px;
   font-size: 1.125rem;
   padding-bottom: 1.25em;
 }
 section.main aside .search input {
-  border: 1px solid #cccccc;
-  background-color: #f3f3f3;
+  border: 1px dashed #f3f3f3;
+  background: #f3f3f3;
   width: 100%;
   padding: 0.625em;
   font-size: 12px;
@@ -336,7 +341,6 @@ section.main aside ul.sidebar {
   list-style: none;
 }
 section.main aside ul.sidebar li.widget h3.widget-title {
-  font-family: "Francois One", sans-serif;
   color: #4d4d4d;
   font-size: 20px;
   font-size: 1.25rem;
