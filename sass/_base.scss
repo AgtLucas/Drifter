@@ -1,3 +1,13 @@
+/*
+Theme Name: Drifter
+Theme URI: http://www.agtlucas.com
+Description: Unknown!
+Version: 0.1
+Author: Lucas Churchill
+License: GNU General Public License version 3.0
+License URI: http:///www.gnu.org/licenses/gpl-3.0.html
+*/
+
 /*-----------------------------------*\
 	$BASE RULES
 \*-----------------------------------*/
@@ -57,7 +67,7 @@ $old_paper: #f1eee6;
 	width: 240px;
 	height: 240px;
 	opacity: 0.1;
-	background: url(../img/top-secret-2.png);
+	background: url(img/top-secret-2.png);
 }
 
 *, *:after, *:before {
@@ -76,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 body {
 	font-size: 16px;
 	font-family: 'Cutive Mono', serif;
-	background: url(../img/wild_oliva.png);
+	background: url(img/wild_oliva.png);
 	line-height: 1.3;
 	color: $lovegray;
 }

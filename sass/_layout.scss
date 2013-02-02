@@ -18,11 +18,11 @@ header, footer {
 footer {
 	position: relative;
 	color: #ccc;
-	background: url(../img/stressed_linen.png);
+	background: url(img/stressed_linen.png);
 	.copyright {
 		position: relative;
-		background: url(../img/dark_brick_wall.png);
-		border-top: 2px dashed $dmidnight;
+		background: url(img/dark_brick_wall.png);
+		border-top: 3px dashed $dmidnight;
 		width: 100%;
 		padding: 1.25em;
 		display: inline-block;
@@ -105,7 +105,7 @@ section.main {
 		article.post {
 			position: relative;
 			min-height: 400px;
-			// background: url(../img/old_paper.png);
+			// background: url(img/old_paper.png);
 			background-color: $old_paper;
 			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
