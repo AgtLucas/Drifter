@@ -151,6 +151,9 @@ section.main {
 							text-decoration: underline;
 						}
 					}
+					a.more-link {
+						@include button;
+					}
 				}
 			}
 			.cat-tags {

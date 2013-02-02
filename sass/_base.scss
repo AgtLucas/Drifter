@@ -34,6 +34,30 @@ $old_paper: #f1eee6;
 	text-shadow: 1px 1px 0px #fff;
 }
 
+@mixin button {
+	background-color: $lovegray;
+	padding: 0.625em;
+	border-radius: 2px;
+	color: $awhite;
+	font-size: 12px;
+	font-size: 0.75rem;
+	float: right;	
+	&:hover {
+		background-color: $nied;
+	}
+}
+
+.top-secret {
+	position: absolute;
+	margin: auto;
+	right: 25%;
+	bottom: 0;
+	width: 240px;
+	height: 240px;
+	opacity: 0.1;
+	background: url(../img/top-secret-2.png);
+}
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -84,19 +108,6 @@ h1, h2, h3, h4, h5, h6, p {
 	background-color: black;
 	color: $awhite;
 	text-shadow: none;
-}
-
-.button {
-	background-color: $lovegray;
-	padding: 0.625em;
-	border-radius: 2px;
-	color: $awhite;
-	font-size: 12px;
-	font-size: 0.75rem;
-	float: right;	
-	&:hover {
-		background-color: $nied;
-	}
 }
 
 hr {
