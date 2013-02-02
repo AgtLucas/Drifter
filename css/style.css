@@ -35,7 +35,6 @@ body {
 
 img, video {
   width: 100%;
-  margin-top: 1.25em;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -74,7 +73,7 @@ blockquote {
   padding-left: 1.25em;
   margin-bottom: 1.5625em;
   margin-top: 1.5625em;
-  border-left: 5px solid #00181d;
+  border-left: 5px solid #cccccc;
   color: #030000;
 }
 
@@ -142,6 +141,7 @@ footer .copyright a:hover {
 footer .footer-widget {
   position: relative;
   width: 33.3024119%;
+  letter-spacing: -1px;
   float: left;
   padding: 1.25em;
   margin-bottom: 20px;
@@ -226,8 +226,8 @@ section.main section.blog-posts article.post .entry-content {
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
   text-shadow: 1px 1px 0px white;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 0.3125em;
+  border-bottom: 1px dashed #cccccc;
+  margin-bottom: 20px;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title a {
   color: #00181d;
@@ -241,10 +241,6 @@ section.main section.blog-posts article.post .entry-content h2.post-title a:hove
   color: #515151;
 }
 section.main section.blog-posts article.post .entry-content p {
-  margin-top: 01.6129032%;
-  /* 10px; */
-  margin-bottom: 01.6129032%;
-  /* 10px; */
   letter-spacing: -1px;
   text-shadow: 1px 1px 0px white;
 }
@@ -259,11 +255,13 @@ section.main section.blog-posts article.post .entry-content p a:hover {
 section.main section.blog-posts article.post .entry-content p a.more-link {
   background-color: #515151;
   padding: 0.625em;
+  margin-top: 15px;
   border-radius: 2px;
   color: #f7f7f7;
-  font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 13px;
+  font-size: 0.8125rem;
   float: right;
+  text-decoration: none;
 }
 section.main section.blog-posts article.post .entry-content p a.more-link:hover {
   background-color: #030000;
@@ -302,7 +300,6 @@ section.main section.blog-posts article.post .meta {
   text-align: center;
   width: 10.6944444%;
   height: 100%;
-  color: #030000;
 }
 section.main section.blog-posts article.post .meta .data {
   position: relative;

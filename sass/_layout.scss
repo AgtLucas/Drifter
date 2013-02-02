@@ -40,6 +40,7 @@ footer {
 	.footer-widget {
 		position: relative;
 		width: 33.3024119%;
+		letter-spacing: -1px;
 		float: left;
 		padding: 1.25em;
 		margin-bottom: 20px;
@@ -123,8 +124,9 @@ section.main {
 				padding-right: 1.875em;
 				h2.post-title {
 					@include text-shadow;
-					border-bottom: 1px solid #ccc;
-					padding-bottom: 0.3125em;
+					border-bottom: 1px dashed #ccc;
+					margin-bottom: 20px;
+					// padding-bottom: 0.3125em;
 					a {
 						color: $dmidnight;
 						font-weight: normal;
@@ -139,8 +141,6 @@ section.main {
 					}
 				}
 				p {
-					margin-top: 01.6129032%; /* 10px; */
-					margin-bottom: 01.6129032%; /* 10px; */
 					letter-spacing: -1px;
 					@include text-shadow;
 					a {
@@ -190,7 +190,6 @@ section.main {
 				text-align: center;
 				width: 10.6944444%;
 				height: 100%;
-				color: $nied;
 				.data {
 					position: relative;
 					// background-color: $dmidnight;
