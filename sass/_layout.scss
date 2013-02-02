@@ -91,7 +91,6 @@ header {
 
 section.main {
 	padding-top: 2.5em;
-	// background: $agray url(../img/purty_wood.png);
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
 		float: left;
@@ -99,8 +98,7 @@ section.main {
 			height: 70px;
 			width: 100%;
 			margin: 2.5em 0;
-			border-top: 4px solid $nied;
-			background: url(../img/linedpaper.png);
+			background: url(../img/ricepaper2.png);
 			-webkit-box-shadow: 0 8px 6px -6px black;
 	  		-moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
@@ -108,21 +106,25 @@ section.main {
 		article.post {
 			position: relative;
 			min-height: 400px;
-			background: url(../img/linedpaper.png);
+			background: url(../img/ricepaper2.png);
+			// background-color: #f3f3f3;
 			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
-			border-top: 4px solid $nied;
 			border-radius: 1px;
-			-webkit-box-shadow: 0 8px 6px -6px black;
-	  		-moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+			box-shadow:
+		        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+		        0 10px 0 -5px #eee, /* The second layer */
+		        0 10px 1px -5px rgba(0,0,0,0.15), /* The second layer shadow */
+		        0 20px 0 -12px #eee, /* The third layer */
+		        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+
 			.entry-content {
 				position: relative;
 				width: 86.1111111%; /* 620px; */
 				padding-bottom: 0.625em; /* 10px*/
 				padding-right: 1.875em;
 				h2.post-title {
-					border-bottom: 1px dashed #ccc;
+					border-bottom: 1px solid #ccc;
 					padding-bottom: 0.3125em;
 					a {
 						color: $dmidnight;
@@ -177,7 +179,7 @@ section.main {
 				left: 0;
 				float: left;
 				text-align: center;
-				border-right: 1px dashed #ccc;
+				border-right: 1px solid #ccc;
 				width: 10.6944444%;
 				height: 100%;
 				color: $nied;
@@ -210,9 +212,8 @@ section.main {
 	aside {
 		width: 27.7777778%;
 		float: right;
-		background: url(../img/linedpaper.png);
+		background: url(../img/ricepaper2.png);
 		padding: 1.875em; /* 30px */
-		border-top: 4px solid $nied;
 		-webkit-box-shadow: 0 8px 6px -6px black;
 	  		-moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
