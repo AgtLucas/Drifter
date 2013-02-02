@@ -61,8 +61,7 @@ header {
 			color: $awhite;
 			font-size: 50px;
 			font-size: 3.125rem;
-			font-weight: bold;
-			font-family: 'Share Tech', sans-serif;
+			letter-spacing: -1px;
 			&:hover {
 				color: $bluedust;
 			}
@@ -107,7 +106,7 @@ section.main {
 			position: relative;
 			min-height: 400px;
 			background: url(../img/ricepaper2.png);
-			// background-color: #f3f3f3;
+			// background-color: #fff;
 			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
 			border-radius: 1px;
@@ -131,7 +130,7 @@ section.main {
 						font-weight: normal;
 						font-size: 35px;
 						font-size: 2.1875rem;
-						font-family: 'Share Tech', sans-serif;
+						font-family: 'Francois One', sans-serif;
 						&:hover {
 							color: $bluedust;
 						}
@@ -140,6 +139,7 @@ section.main {
 				p {
 					margin-top: 01.6129032%; /* 10px; */
 					margin-bottom: 01.6129032%; /* 10px; */
+					letter-spacing: -1px;
 					a {
 						color: $coolblue;
 						&:hover {
@@ -159,7 +159,7 @@ section.main {
 				float: right;
 				font-size: 11px;
 				font-size: 0.6875rem;
-				font-weight: bold;
+				font-family: 'Helvetica', sans-serif;
 				line-height: 2;
 				color: #555;
 				a {
@@ -214,10 +214,10 @@ section.main {
 		background: url(../img/ricepaper2.png);
 		padding: 1.875em; /* 30px */
 		-webkit-box-shadow: 0 8px 6px -6px black;
-	  		-moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+	  	-moz-box-shadow: 0 8px 6px -6px black;
+	    box-shadow: 0 8px 6px -6px black;
 		.search {
-			font-family: 'Share Tech', sans-serif;
+			font-family: 'Francois One', sans-serif;
 			color: $agray;
 			font-size: 18px;
 			font-size: 1.125rem;
@@ -236,7 +236,7 @@ section.main {
 			list-style: none;
 			li.widget {
 				h3.widget-title {
-					font-family: 'Share Tech', sans-serif;
+					font-family: 'Francois One', sans-serif;
 					color: $agray;
 					font-size: 20px;
 					font-size: 1.25rem;
