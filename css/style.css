@@ -49,7 +49,7 @@ img, video {
 }
 
 .button {
-  background-color: #2a7496;
+  background-color: #515151;
   padding: 0.3125em;
   border-radius: 2px;
   color: #f7f7f7;
@@ -157,8 +157,8 @@ header h1.logo {
 }
 header h1.logo a {
   color: #f7f7f7;
-  font-size: 40px;
-  font-size: 2.5rem;
+  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
   font-family: "Share Tech", sans-serif;
 }
