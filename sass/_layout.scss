@@ -123,16 +123,18 @@ section.main {
 				padding-right: 1.875em;
 				h2.post-title {
 					@include text-shadow;
-					border-bottom: 1px dotted #ccc;
+					border-bottom: 1px solid #ccc;
 					padding-bottom: 0.3125em;
 					a {
 						color: $dmidnight;
 						font-weight: normal;
 						font-size: 35px;
 						font-size: 2.1875rem;
-						font-family: 'Francois One', sans-serif;
+						// font-family: 'Francois One', sans-serif;
+						font-weight: bold;
+						letter-spacing: -4px;
 						&:hover {
-							color: $bluedust;
+							color: $lovegray;
 						}
 					}
 				}
@@ -142,7 +144,9 @@ section.main {
 					letter-spacing: -1px;
 					@include text-shadow;
 					a {
-						color: $coolblue;
+						text-shadow: none;
+						background-color: #ccc;
+						color: $dmidnight;
 						&:hover {
 							text-decoration: underline;
 						}
@@ -186,12 +190,12 @@ section.main {
 				color: $nied;
 				.data {
 					position: relative;
-					background-color: $dmidnight;
-				    color: $awhite;
+					// background-color: $dmidnight;
+				    color: $nied;
 				    font-weight: bold;
 					padding: 0.625em;
-					margin-top: 200px;
-					width: 200px;
+					margin-top: 300px;
+					width: 300px;
 				    -webkit-transform-origin: 0 0;
 				    -moz-transform-origin:    0 0;
 				    -ms-transform-origin:     0 0;
@@ -201,8 +205,8 @@ section.main {
 				    -ms-transform:     rotate(-90deg); 
 				    -o-transform:      rotate(-90deg);
 				    p {
-				    	font-size: 15px;
-				    	font-size: 0.9375rem;
+				    	font-size: 20px;
+				    	font-size: 1.25rem;
 				    }
 				}
 			}
@@ -226,14 +230,13 @@ section.main {
 			font-size: 1.125rem;
 			padding-bottom: 1.25em;
 			input {
-				border: 1px dashed #f3f3f3;
-				background: #f3f3f3;
+				border: 1px solid #f3f3f3;
+				background: #f1f1f1;
 				width: 100%;
 				padding: 0.625em;
 				font-size: 12px;
 				font-size: 0.75rem;
 				border-radius: 2px;
-				// font-family: inherit;
 			}
 		}
 		ul.sidebar {
