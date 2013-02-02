@@ -159,7 +159,7 @@ section.main {
 				float: right;
 				font-size: 11px;
 				font-size: 0.6875rem;
-				font-family: 'Helvetica', sans-serif;
+				font-family: Helvetica Neue, sans-serif;
 				line-height: 2;
 				color: #555;
 				a {
@@ -185,7 +185,6 @@ section.main {
 				.data {
 					position: relative;
 					background-color: $dmidnight;
-					// opacity: 0.5;
 				    color: $awhite;
 				    font-weight: bold;
 					padding: 0.625em;
@@ -216,6 +215,7 @@ section.main {
 		-webkit-box-shadow: 0 8px 6px -6px black;
 	  	-moz-box-shadow: 0 8px 6px -6px black;
 	    box-shadow: 0 8px 6px -6px black;
+	    letter-spacing: -1px;
 		.search {
 			font-family: 'Francois One', sans-serif;
 			color: $agray;
