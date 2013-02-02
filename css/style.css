@@ -50,10 +50,12 @@ img, video {
 
 .button {
   background-color: #515151;
-  padding: 0.3125em;
+  padding: 0.625em;
   border-radius: 2px;
   color: #f7f7f7;
-  font-size: 0.9375em;
+  font-size: 12px;
+  font-size: 0.75rem;
+  float: right;
 }
 .button:hover {
   background-color: #030000;
@@ -278,14 +280,13 @@ section.main section.blog-posts article.post .meta {
   left: 0;
   float: left;
   text-align: center;
-  border-right: 1px solid #cccccc;
   width: 10.6944444%;
   height: 100%;
   color: #030000;
 }
 section.main section.blog-posts article.post .meta .data {
   position: relative;
-  background-color: #030000;
+  background-color: #00181d;
   color: #f7f7f7;
   font-weight: bold;
   padding: 0.625em;
