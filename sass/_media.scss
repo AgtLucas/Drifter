@@ -5,14 +5,17 @@
 /* min-width: 280px max-width: 760px */
 @media screen and(min-width: 17.5em) and (max-width: 47.5em) {
 	section.main {
-		section.blog-posts {
-			min-width: 100%;
-			article.post {
-				.entry-content {
-					h2.post-title {
-						a {
-							font-size: 30px;
-							font-size: 1.875rem;
+		.content {
+			padding: 0.3125em;
+			section.blog-posts {
+				min-width: 100%;
+				article.post {
+					.entry-content {
+						h2.post-title {
+							a {
+								font-size: 30px;
+								font-size: 1.875rem;
+							}
 						}
 					}
 				}

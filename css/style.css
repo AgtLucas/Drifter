@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  background-color: #515151;
+  background: url(../img/concrete_wall.png);
   line-height: 1.4;
   color: #515151;
 }
@@ -114,6 +114,7 @@ header, footer {
 footer {
   position: relative;
   color: #ccc;
+  background: url(../img/stressed_linen.png);
 }
 footer .copyright {
   position: relative;
@@ -186,7 +187,6 @@ header nav ul li a:hover {
 
 section.main {
   padding-top: 2.5em;
-  background: #2a7496;
 }
 section.main section.blog-posts {
   width: 70.3703704%;
@@ -369,10 +369,13 @@ section.main aside ul.sidebar li.widget ul li a:hover {
 \*-----------------------------------*/
 /* min-width: 280px max-width: 760px */
 @media screen and (min-width: 17.5em) and (max-width: 47.5em) {
-  section.main section.blog-posts {
+  section.main .content {
+    padding: 0.3125em;
+  }
+  section.main .content section.blog-posts {
     min-width: 100%;
   }
-  section.main section.blog-posts article.post .entry-content h2.post-title a {
+  section.main .content section.blog-posts article.post .entry-content h2.post-title a {
     font-size: 30px;
     font-size: 1.875rem;
   }

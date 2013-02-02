@@ -18,6 +18,7 @@ header, footer {
 footer {
 	position: relative;
 	color: #ccc;
+	background: url(../img/stressed_linen.png);
 	.copyright {
 		position: relative;
 		background: url(../img/dark_brick_wall.png);
@@ -90,7 +91,6 @@ header {
 
 section.main {
 	padding-top: 2.5em;
-	background: $bluedust;
 	// background: $agray url(../img/purty_wood.png);
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
