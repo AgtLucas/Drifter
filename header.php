@@ -1,10 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes()  ?>>
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="chrome-1">
 	<meta name="viewport" content="width=device-width">
-	<title>Drifter Theme</title>
+	<title>
+        <?php if ( function_exists( 'is_tag' ) && is_tag() ) {
+            single_tag_title( 'Tag Archive for &quot;' ); echo '&quot; - ';
+        } elseif ( is_archive() ) {
+            wp_title( '' ); echo 'Archive - ';
+        } elseif ( is_search() ) {
+            echo 'Search for &quot;'.wp_specialchars($s).'&quot; - ';
+        } elseif (!(is_404()) && (is_single()) || (is_page())) {
+            wp_title( '' ); echo ' - ';
+        } elseif (is_404()) {
+            echo 'Not Found - ';
+        }
+        if (is_home()) {
+            bloginfo( 'name' ); echo ' - '; bloginfo( 'description' );
+        } else {
+            bloginfo( 'name' );
+        }
+        if ($paged > 1) {
+            echo ' - page '. $paged;
+        }?>   
+    </title>
 	<link rel="shortcut icon" href="">
 	<link rel="author" href="https://plus.google.com/110711903987736923620/posts">
 
@@ -17,16 +37,21 @@
 	<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
 	<![endif]-->
+
+    <?php wp_head(); ?>
 </head>
 <body>
-	<!--[if lt IE 8]>
-     	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+	<!-- [if lt IE 8]>
+     	<div class="chromeframe">
+            <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser right now</a> to improve your experience.</p>
+            <div class="top-secret"></div>
+        </div>
     <![endif]-->
 
     <header>
         <div class="content cf">
     		<h1 class="logo">
-    			<a href="#">AgtLucas</a>
+    			<a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
     		</h1>
     		<nav>
     			<ul>

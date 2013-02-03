@@ -10,17 +10,6 @@ License URI: http:///www.gnu.org/licenses/gpl-3.0.html
 /*-----------------------------------*\
 	$BASE RULES
 \*-----------------------------------*/
-.top-secret {
-  position: absolute;
-  margin: auto;
-  right: 25%;
-  bottom: 0;
-  width: 240px;
-  height: 240px;
-  opacity: 0.1;
-  background: url(img/top-secret-2.png);
-}
-
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -84,6 +73,38 @@ blockquote {
   margin-top: 1.5625em;
   border-left: 5px solid #cccccc;
   color: #030000;
+}
+
+.chromeframe {
+  position: relative;
+  background-color: tomato;
+  color: #f7f7f7;
+  font-size: 20px;
+  border: 3px dashed #f7f7f7;
+  padding: 40px;
+  top: -10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.chromeframe a {
+  text-decoration: underline;
+  color: #595959;
+}
+.chromeframe .top-secret {
+  position: absolute;
+  top: 10px;
+}
+
+.top-secret {
+  position: absolute;
+  margin: auto;
+  right: 25%;
+  bottom: 0;
+  width: 240px;
+  height: 240px;
+  opacity: 0.1;
+  background: url(img/top-secret-2.png);
 }
 
 .right {
@@ -159,7 +180,6 @@ footer .footer-widget {
 header {
   position: relative;
   height: 7.5em;
-  border-top: 5px solid #4d4d4d;
 }
 header .content {
   padding-bottom: 0;
