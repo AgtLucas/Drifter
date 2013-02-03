@@ -50,6 +50,7 @@ if (function_exists( 'register_sidebar' ) ) {
 
 	register_sidebar(array(
 		'name'			=> __( 'Footer Widgets 1' ),
+		'id'			=> 'footer-widgets-1',
 		'before_widget'	=> '<li id="%1$s" class="widget %2$s">',
 		'after_widget'	=> '</li>',
 		'before_title'	=> '<h3 class="widget-title">',
@@ -58,6 +59,7 @@ if (function_exists( 'register_sidebar' ) ) {
 
 	register_sidebar(array(
 		'name'			=> __( 'Footer Widgets 2' ),
+		'id'			=> 'footer-widgets-2',
 		'before_widget'	=> '<li id="%1$s" class="widget %2$s">',
 		'after_widget'	=> '</li>',
 		'before_title'	=> '<h3 class="widget-title">',
@@ -66,6 +68,7 @@ if (function_exists( 'register_sidebar' ) ) {
 
 	register_sidebar(array(
 		'name'			=> __( 'Footer Widgets 3' ),
+		'id'			=> 'footer-widgets-3',
 		'before_widget'	=> '<li id="%1$s" class="widget %2$s">',
 		'after_widget'	=> '</li>',
 		'before_title'	=> '<h3 class="widget-title">',

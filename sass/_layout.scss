@@ -44,6 +44,31 @@ footer {
 		float: left;
 		padding: 1.25em;
 		margin-bottom: 20px;
+		ul.sidebar {
+			list-style: none;
+			h3.widget-title {
+				color: $old_paper;
+				font-size: 20px;
+				font-size: 1.25rem;
+			}
+			ul {
+				list-style: square;
+				padding-left: 1.25em; /* 20 */
+				padding-bottom: 1.875em; /* 30 */
+				li {
+					padding-top: 5px;
+					font-size: 15px;
+					font-size: 0.9375rem;
+					border-bottom: 1px dashed $wnight;
+					a {
+						color: $bluedust;
+						&:hover {
+							color: $livedie;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -112,14 +137,15 @@ section.main {
 					border-bottom: 1px dashed #ccc;
 					margin-bottom: 20px;
 					// padding-bottom: 0.3125em;
+					font-weight: normal;
+					font-size: 35px;
+					font-size: 2.1875rem;
+					font-weight: bold;
+					letter-spacing: -4px;
 					a {
 						color: $dmidnight;
-						font-weight: normal;
-						font-size: 35px;
-						font-size: 2.1875rem;
-						// font-family: 'Francois One', sans-serif;
-						font-weight: bold;
-						letter-spacing: -4px;
+						font: inherit;
+						font-size: inherit;
 						&:hover {
 							color: $lovegray;
 						}
@@ -177,7 +203,6 @@ section.main {
 				height: 100%;
 				.data {
 					position: relative;
-					// background-color: $dmidnight;
 				    color: $nied;
 				    font-weight: bold;
 					padding: 0.625em;
@@ -269,7 +294,6 @@ section.main {
 					font-size: 1.25rem;
 				}
 				ul {
-					list-style: none;
 					padding-left: 1.25em; /* 20 */
 				  	list-style: square;
 					padding-bottom: 1.875em; /* 30 */
@@ -285,6 +309,12 @@ section.main {
 							}
 						}
 					}
+				}
+			}
+			.tagcloud {
+				padding: 0.625em;
+				a {
+					color: $bluedust;
 				}
 			}
 		}

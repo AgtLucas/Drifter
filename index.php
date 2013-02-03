@@ -18,9 +18,6 @@
 
                         <?php the_content( 'Read More' ); ?>
             
-                        <!-- <p>
-                            <a href="#" class="more-link">Read More</a>
-                        </p> -->
                         <div class="top-secret"></div>
                     </div><!-- end entry-content -->
                     <div class="cat-tags">

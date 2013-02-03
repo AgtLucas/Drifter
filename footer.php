@@ -5,37 +5,37 @@
         <div class="stip"></div>
 		<div class="content cf">
 			<div class="footer-widget">
-               <p>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi illo impedit eaque assumenda temporibus fugiat dolores velit quaerat ab debitis inventore dolorum quibusdam asperiores eum ex quod quos soluta esse.
-               </p>         
+                <ul class="sidebar">
+                    <?php if ( is_active_sidebar('footer-widgets-1') ) : ?>
+                        <?php dynamic_sidebar('footer-widgets-1'); ?>
+                    <?php endif; ?>
+                </ul>
             </div>
 
             <div class="footer-widget">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rerum ad assumenda labore vitae minus odit reiciendis quia voluptates voluptatum nostrum consequuntur debitis fugiat consectetur neque. Quasi blanditiis debitis praesentium.
-                </p>
+                <ul class="sidebar">
+                    <?php if ( is_active_sidebar( 'footer-widgets-2' ) ) : ?>
+                        <?php dynamic_sidebar( 'footer-widgets-2' ); ?>
+                    <?php endif; ?>
+                </ul>
             </div>
 
             <div class="footer-widget">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum modi quas dicta nostrum fugiat officiis a nam vero adipisci alias quisquam ducimus tempore sunt dolorum veritatis tenetur corporis aut.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum modi quas dicta nostrum fugiat officiis a nam vero adipisci alias quisquam ducimus tempore sunt dolorum veritatis tenetur corporis aut.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum modi quas dicta nostrum fugiat officiis a nam vero adipisci alias quisquam ducimus tempore sunt dolorum veritatis tenetur corporis aut.
-                </p>
+                <ul class="sidebar">
+                    <?php if ( is_active_sidebar( 'footer-widgets-3' ) ) : ?>
+                        <?php dynamic_sidebar( 'footer-widgets-3' ); ?>
+                    <?php endif; ?>
+                </ul>
             </div>
 
 		</div><!-- end footer content cf -->
         <div class="copyright center">
-            <p>&copy Lucas, 2013 - Proudly powered by <a href="#">WordPress</a> - Hosted by <a href="#">(mt) Media Temple</a></p>
+            <p>&copy <?php bloginfo( 'name' ); ?>, <?php echo date( 'Y' ); ?> - Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a></p>
         </div>
 	</footer>
 <?php wp_footer(); ?>
 
-<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.fitvids.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.fitvids-ck.js"></script>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/stuffs.js"></script>
 </body>
 </html>

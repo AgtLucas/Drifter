@@ -13,10 +13,10 @@
                     </div>
     				<div class="entry-content cf right">
                     <h2 class="post-title">
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <?php the_title(); ?>
                     </h2>
 
-                        <?php the_content( 'Read More' ); ?>
+                        <?php the_content(); ?>
             
                         <!-- <p>
                             <a href="#" class="more-link">Read More</a>
