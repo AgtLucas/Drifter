@@ -225,15 +225,6 @@ section.main section.blog-posts {
   /* 760px; */
   float: left;
 }
-section.main section.blog-posts section.pagination {
-  height: 70px;
-  width: 100%;
-  margin: 2.5em 0;
-  background-color: #f1eee6;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
-}
 section.main section.blog-posts article.post {
   position: relative;
   min-height: 400px;
@@ -252,6 +243,7 @@ section.main section.blog-posts article.post .entry-content {
   padding-bottom: 0.625em;
   /* 10px*/
   padding-right: 1.875em;
+  min-height: 380px;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
   text-shadow: 1px 1px 0px white;
@@ -349,6 +341,47 @@ section.main section.blog-posts article.post .meta .data {
 section.main section.blog-posts article.post .meta .data p {
   font-size: 20px;
   font-size: 1.25rem;
+}
+section.main section.blog-posts section.pagination {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  margin: 2.5em 0;
+  height: auto;
+  padding: 1.25em;
+  color: #f7f7f7;
+  clear: both;
+  background-color: #f1eee6;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+section.main section.blog-posts section.pagination span, section.main section.blog-posts section.pagination a {
+  display: block;
+  float: left;
+  margin: 2px 2px 2px 0;
+  padding: 6px 9px 5px 9px;
+  width: auto;
+  color: #00181d;
+}
+section.main section.blog-posts section.pagination a {
+  color: #00181d;
+}
+section.main section.blog-posts section.pagination a:hover {
+  background-color: #ccc;
+}
+section.main section.blog-posts section.pagination .current {
+  padding: 6px 9px 5px 9px;
+  background-color: #ccc;
+}
+section.main section.blog-posts .comments-template {
+  background-color: #f1eee6;
+  width: 100%;
+  padding: 2.5em 2.5em 2.5em 1.5em;
+  margin-bottom: 3.75em;
+  border-radius: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #f1eee6, 0 10px 1px -5px rgba(0, 0, 0, 0.15), 0 20px 0 -12px #f1eee6, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  /* The third layer shadow */
 }
 section.main aside {
   width: 27.7777778%;

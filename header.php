@@ -54,11 +54,23 @@
     			<a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
     		</h1>
     		<nav>
-    			<ul>
-    				<li><a href="#">Home</a></li>
-    				<li><a href="#">About</a></li>
-    				<li><a href="#">Contact</a></li>
-    			</ul>
+                <?php 
+                    if ( function_exists( 'wp_nav_menu' ) ) :
+                            wp_nav_menu(
+                                    array(
+                                        'menu'      => 'primary_nav',
+                                        'container' => '',
+                                        'depth'     => 1,
+                                        'menu_id'   => 'menu')
+                            );
+                    else :
+                ?>
+        			<ul>
+                        <?php wp_list_pages( 'title_li=&depth=1' ); ?>    				
+        			</ul>
+                <?php 
+                    endif;
+                ?>
     		</nav>
     	</div><!-- end content -->
         <div class="stip"></div>

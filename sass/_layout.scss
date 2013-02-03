@@ -92,15 +92,6 @@ section.main {
 	section.blog-posts {
 		width: 70.3703704%; /* 760px; */
 		float: left;
-		section.pagination {
-			height: 70px;
-			width: 100%;
-			margin: 2.5em 0;
-			background-color: $old_paper;
-			-webkit-box-shadow: 0 8px 6px -6px black;
-	  		-moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-		}
 		article.post {
 			position: relative;
 			min-height: 400px;
@@ -109,18 +100,13 @@ section.main {
 			margin-bottom: 1.875em;
 			padding: 1.25em; /* 20px; */
 			border-radius: 1px;
-			box-shadow:
-		        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-		        0 10px 0 -5px $old_paper, /* The second layer */
-		        0 10px 1px -5px rgba(0,0,0,0.15), /* The second layer shadow */
-		        0 20px 0 -12px $old_paper, /* The third layer */
-		        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
-
+			@include paper-shadow;
 			.entry-content {
 				position: relative;
 				width: 86.1111111%; /* 620px; */
 				padding-bottom: 0.625em; /* 10px*/
 				padding-right: 1.875em;
+				min-height: 380px;
 				h2.post-title {
 					@include text-shadow;
 					border-bottom: 1px dashed #ccc;
@@ -197,20 +183,54 @@ section.main {
 					padding: 0.625em;
 					margin-top: 300px;
 					width: 300px;
-				    -webkit-transform-origin: 0 0;
-				    -moz-transform-origin:    0 0;
-				    -ms-transform-origin:     0 0;
-				    -o-transform-origin:      0 0;
-				    -webkit-transform: rotate(-90deg); 
-				    -moz-transform:    rotate(-90deg); 
-				    -ms-transform:     rotate(-90deg); 
-				    -o-transform:      rotate(-90deg);
+				    @include rotate;
 				    p {
 				    	font-size: 20px;
 				    	font-size: 1.25rem;
 				    }
 				}
 			}
+		}
+		section.pagination {
+			position: relative;
+			height: 70px;
+			width: 100%;
+			margin: 2.5em 0;
+			height: auto;
+			padding: 1.25em;
+			color: $awhite;
+			clear: both;
+			background-color: $old_paper;
+			-webkit-box-shadow: 0 8px 6px -6px black;
+	  		-moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	        span, a {
+	        	display: block;
+	        	float: left;
+	        	margin: 2px 2px 2px 0;
+	        	padding: 6px 9px 5px 9px;
+	        	width: auto;
+	        	color: $dmidnight;
+	        }
+	        a {
+	        	color: $dmidnight;
+	        	&:hover {
+	        		background-color: #ccc;
+	        	}
+	        }
+
+	        .current {
+	        	padding: 6px 9px 5px 9px;
+	        	background-color: #ccc;
+	        }
+		}
+		.comments-template {
+			background-color: $old_paper;
+			width: 100%;
+			padding: 2.5em 2.5em 2.5em 1.5em;
+			margin-bottom: 3.75em;
+			border-radius: 1px;
+			@include paper-shadow;
 		}
 	}
 

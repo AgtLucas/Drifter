@@ -37,13 +37,9 @@
 
             <?php endif; ?>
 
-                <section class="pagination cf">
-                    <?php 
-                        if ( function_exists( 'pagination' ) ) {
-                            pagination( $additional_loop->max_num_pages );
-                        }
-                    ?>
-                </section>
+                <div class="comments-template">
+                    <?php comments_template(); ?>
+                </div>
     		</section><!-- end blog-posts -->
 
     		<?php get_sidebar(); ?>
