@@ -30,7 +30,7 @@
 
 		</div><!-- end footer content cf -->
         <div class="copyright center">
-            <p>&copy; <?php bloginfo( 'name' ); ?> <?php echo date( 'Y' ); ?> - Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a></p>
+            <p>&copy; <?php bloginfo( 'name' ); ?>, <?php echo date( 'Y' ); ?> - Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a></p>
         </div>
 	</footer>
 <?php wp_footer(); ?>
