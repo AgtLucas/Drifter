@@ -25,7 +25,7 @@
             echo ' - page '. $paged;
         }?>   
     </title>
-	<link rel="shortcut icon" href="">
+	<link rel="shortcut icon" href="<?php print IMAGES; ?>/favicon.ico">
 	<link rel="author" href="https://plus.google.com/110711903987736923620/posts">
 
 	<!-- Style -->
