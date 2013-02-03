@@ -243,7 +243,7 @@ section.main section.blog-posts article.post .entry-content {
   padding-bottom: 0.625em;
   /* 10px*/
   padding-right: 1.875em;
-  min-height: 380px;
+  min-height: 300px;
 }
 section.main section.blog-posts article.post .entry-content h2.post-title {
   text-shadow: 1px 1px 0px white;

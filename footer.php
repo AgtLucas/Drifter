@@ -34,5 +34,8 @@
         </div>
 	</footer>
 <?php wp_footer(); ?>
+
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.fitvids.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/stuffs.js"></script>
 </body>
 </html>
