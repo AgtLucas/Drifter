@@ -30,17 +30,19 @@
 
             <?php else : ?>
 
-                <h2>Nothing Found!</h2>
-
+            <section class="error">
+                <div class="content">
+                    <h1>Nothing here</h1>
+                    <?php get_search_form(); ?>
+                </div>
+            </section>
             <?php endif; ?>
 
-                <section class="pagination cf">
                     <?php 
                         if ( function_exists( 'pagination' ) ) {
                             pagination( $additional_loop->max_num_pages );
                         }
                     ?>
-                </section>
     		</section><!-- end blog-posts -->
 
     		<?php get_sidebar(); ?>

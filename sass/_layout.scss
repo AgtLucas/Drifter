@@ -112,6 +112,33 @@ header {
 	}
 }
 
+section.error {
+	.content {
+		background: url(img/old_paper.png);
+		text-align: center;
+		min-height: 500px;
+		margin-bottom: 50px;
+		border-radius: 5px;
+		h1 {
+			font-size: 60px;
+			font-size: 3.75rem;
+			margin: 1.5em 0 0.625em 0;
+		}
+		input {
+			width: 50%;
+			height: 50px;
+			border: none;
+			border-radius: 3px;
+			background-color: $nied;
+			color: $coolblue;
+			padding: 0.625em;
+			font-size: 20px;
+			font-size: 1.25rem;
+			font-family: inherit;
+		}
+	}
+}
+
 section.main {
 	padding-top: 2.5em;
 	section.blog-posts {
@@ -208,7 +235,7 @@ section.main {
 					padding: 0.625em;
 					margin-top: 300px;
 					width: 300px;
-				    @include rotate;
+				    @include rotate(-90deg);
 				    p {
 				    	font-size: 20px;
 				    	font-size: 1.25rem;
@@ -235,18 +262,20 @@ section.main {
 	        	margin: 2px 2px 2px 0;
 	        	padding: 6px 9px 5px 9px;
 	        	width: auto;
-	        	color: $dmidnight;
+	        	background-color: $lovegray;
 	        }
 	        a {
-	        	color: $dmidnight;
+	        	color: $awhite;
 	        	&:hover {
 	        		background-color: #ccc;
+	        		color: $dmidnight;
 	        	}
 	        }
 
 	        .current {
 	        	padding: 6px 9px 5px 9px;
 	        	background-color: #ccc;
+	        	color: $dmidnight;
 	        }
 		}
 		.comments-template {
@@ -277,12 +306,14 @@ section.main {
 			padding-bottom: 1.25em;
 			input {
 				border: 1px solid #f3f3f3;
-				background: #f1f1f1;
+				background: $lovegray;
 				width: 100%;
 				padding: 0.625em;
-				font-size: 12px;
-				font-size: 0.75rem;
-				border-radius: 2px;
+				font-size: 13px;
+				font-size: 0.8125rem;
+				font-family: inherit;
+				border-radius: 4px;
+				color: $awhite;
 			}
 		}
 		ul.sidebar {

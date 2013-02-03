@@ -68,15 +68,15 @@ $old_paper: #f1eee6;
         0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 }
 
-@mixin rotate {
+@mixin rotate($unit) {
 	-webkit-transform-origin: 0 0;
     -moz-transform-origin:    0 0;
     -ms-transform-origin:     0 0;
     -o-transform-origin:      0 0;
-    -webkit-transform: rotate(-90deg); 
-    -moz-transform:    rotate(-90deg); 
-    -ms-transform:     rotate(-90deg); 
-    -o-transform:      rotate(-90deg);
+    -webkit-transform: rotate($unit); 
+    -moz-transform:    rotate($unit); 
+    -ms-transform:     rotate($unit); 
+    -o-transform:      rotate($unit);
 }
 
 *, *:after, *:before {
@@ -100,7 +100,7 @@ body {
 	color: $lovegray;
 }
 
-img, video {
+article.post img, article.post video {
 	width: 100%;
 	// margin-top: 1.25em;
 }
@@ -195,4 +195,8 @@ blockquote {
 	border-bottom: 2px dashed $agray;
 	padding: 0;
 	height: 5px;
+}
+
+#wpstats {
+	display: none;
 }
