@@ -98,7 +98,7 @@ function pagination ( $pages = '', $range = 4 ) {
 		if ( $paged > 1 && $showitems < $pages ) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo; Previous</a>";
 		
 		for ( $i = 1; $i <= $pages; $i++ ) {
-			if ( 1 != $pages && ( !( $i >= $paged+$range+1 || $i <= $paged-$ranged-1 ) || $pages <= $showitems ) ) {
+			if ( 1 != $pages && ( !( $i >= $paged+$range+1 || $i <= $paged-$range-1 ) || $pages <= $showitems ) ) {
 				echo ($paged == $i)? "<span class=\"current\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"inactive\">".$i."</a>";
 			}
 		}
